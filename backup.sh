@@ -14,7 +14,6 @@ copy_item() {
 }
 
 
-
 # Backup Hyprland config
 echo
 echo "Backup Hyprland config"
@@ -62,7 +61,6 @@ copy_item "$HOME/.config/zshrc.d" "$script_dir/.config/"
 # Backup fonts
 echo
 echo "Backup fonts"
-copy_item "$HOME/.local/share/fonts" "$script_dir/.local/share/"
 copy_item "$HOME/.fonts" "$script_dir/"
 
 
