@@ -104,7 +104,6 @@ apply_hyprland() {
     cp "$CACHE_DIR"/user/generated/hypr/hyprland/colors.conf "$XDG_CONFIG_HOME"/hypr/hyprland/colors.conf
 }
 
-:'
 apply_hyprlock() {
     # Check if scripts/templates/hypr/hyprlock.conf exists
     if [ ! -f "scripts/templates/hypr/hyprlock.conf" ]; then
@@ -122,7 +121,6 @@ apply_hyprlock() {
 
     cp "$CACHE_DIR"/user/generated/hypr/hyprlock.conf "$XDG_CONFIG_HOME"/hypr/hyprlock.conf
 }
-'
 
 apply_lightdark() {
     lightdark=$(get_light_dark)

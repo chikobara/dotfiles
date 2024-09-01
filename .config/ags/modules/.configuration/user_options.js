@@ -11,6 +11,7 @@ let configOptions = {
         'defaultTemperature': 0.9,
         'enhancements': true,
         'useHistory': true,
+        'safety': true,
         'writingCursor': " ...", // Warning: Using weird characters can mess up Markdown rendering
         'proxyUrl': null, // Can be "socks5://127.0.0.1:9050" or "http://127.0.0.1:8080" for example. Leave it blank if you don't need it.
     },
@@ -28,6 +29,7 @@ let configOptions = {
         'keyboardUseFlag': false, // Use flag emoji instead of abbreviation letters
         'layerSmoke': false,
         'layerSmokeStrength': 0.2,
+        'barRoundCorners': 1, // 0: No, 1: Yes
         'fakeScreenRounding': 1, // 0: None | 1: Always | 2: When not fullscreen
     },
     'apps': {
@@ -101,6 +103,7 @@ let configOptions = {
             'columns': 2,
             'batchCount': 20,
             'allowNsfw': false,
+            'saveInFolderByTags': false,
         },
         'pages': {
             'order': ["apis", "tools"],
@@ -219,6 +222,12 @@ let configOptions = {
             'prevTab': "Ctrl+Page_Up",
             'cycleTab': "Ctrl+Tab",
         }
+    },
+    'bar': {
+        // Array of bar modes for each monitor. Hit Ctrl+Alt+Slash to cycle.
+        // Modes: "normal", "focus" (workspace indicator only), "nothing"
+        // Example for four monitors: ["normal", "focus", "normal", "nothing"]
+        'modes': ["normal"]
     },
 }
 
