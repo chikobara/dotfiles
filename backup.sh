@@ -66,3 +66,8 @@ copy_item "$HOME/.fonts" "$script_dir/"
 
 echo
 echo "Backup completed in: $script_dir"
+
+# Backup fastfetch conf
+echo
+echo "Backup fastfetch conf"
+copy_item "$HOME/.fastfetch_conf.jsonc" "$script_dir/"
