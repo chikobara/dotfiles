@@ -121,12 +121,12 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 export PATH=$PATH:/home/chiko/.spicetify
 #unifetch --ascii_distro Arch --color_blocks off 
 
-
+alias hz144="wlr-randr --output eDP-1 --custom-mode 1920x1080@144"
+alias hz60="wlr-randr --output eDP-1 --custom-mode 1920x1080@60"
 alias cat="bat --theme OneHalfDark "
 alias ls="eza -1lxh  -F --classify=always --color=always --icons=always --no-quotes --hyperlink --group-directories-first --no-user --git -@"
 alias la="eza -1oxlhA -F --classify=always --color=always --icons=always --no-quotes --hyperlink --group-directories-first --no-user"
 alias l="ls"
-alias 'ls -a'="la"
 alias vim="nvim"
 alias vi="nvim"
 alias nv="nvim"
@@ -139,13 +139,4 @@ alias nf="neofetch --disable gpu wm shell packages terminal wm_theme --cpu_speed
 alias cls="clear && exec zsh"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source /home/chiko/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# bun completions
-[ -s "/home/chiko/.bun/_bun" ] && source "/home/chiko/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
-
 source ~/.config/zshrc.d/auto-Hypr.sh
