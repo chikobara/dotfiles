@@ -13,7 +13,7 @@ Arch Linux with Hyprland dotfiles
 - **Shell** • [Zsh](https://www.zsh.org) 🐚 
 - **Terminal** • [Kitty](https://github.com/kovidgoyal/kitty) 💻 A powerful term
   with gpu support!
-- **Panel** • [Hyprpanel](https://github.com/Jas-SinghFSU/HyprPanel)🍧
+- **Panel** • [Hyprpanel](https://github.com/Jas-SinghFSU/HyprPanel)🍧 A Bar/Panel for Hyprland with extensive customizability.
 - **Notify Daemon** • ~~[Dunst](https://github.com/dunst-project/dunst) 🍃
   Minimalist and functional!~~ was\  its hyprpanel now handling the notifications
 - **Launcher** • [Rofi](https://github.com/davatorium/rofi) 🚀 A window switcher, application launcher and dmenu replacement
