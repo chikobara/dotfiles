@@ -41,9 +41,12 @@ copy_item "$HOME/.config/qt6ct" "$script_dir/.config/"
 # Backup AGS config
 echo
 echo "Backup AGS config"
-copy_item "$HOME/.config/ags" "$script_dir/.config/"
+copy_item "$HOME/Downloads/github_downloads/HyprPanel/." "$script_dir/.config/ags"
+
+
 
 # Backup rofi configs
+echo
 echo "Backup rofi config"
 copy_item "$HOME/.config/rofi" "$script_dir/.config/"
 
