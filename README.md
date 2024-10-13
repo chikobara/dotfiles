@@ -18,7 +18,10 @@ Arch Linux with Hyprland dotfiles
 <div align='center'>
     <div align="center">
         <h2>• thanks to  •</h2>
+    </div>
 </div>
+
+<div>
 <ul>
 <li><a href='https://github.com/Jas-SinghFSU/'>Jas-SinghFSU</a> for making <a href='https://github.com/Jas-SinghFSU/HyprPanel'>Hyprpanel</a></li>
 <li><a href='https://github.com/Aylur/'> Aylur</a> for making <a href='https://github.com/Aylur/ags''>ags</a></li>
@@ -26,3 +29,4 @@ Arch Linux with Hyprland dotfiles
 configs</a></li>
 <li><a href='https://github.com/adi1090x/'>adil090x</a> for <a href='https://github.com/adi1090x/rofi'> rofi themes</a></li>
 </ul>
+</div>
