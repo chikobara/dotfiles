@@ -43,6 +43,9 @@ echo
 echo "Backup AGS config"
 copy_item "$HOME/.config/ags" "$script_dir/.config/"
 
+# Backup rofi configs
+echo "Backup rofi config"
+copy_item "$HOME/.config/rofi" "$script_dir/.config/"
 
 # Backup Kitty config
 echo
