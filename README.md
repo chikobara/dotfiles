@@ -21,12 +21,7 @@ Arch Linux with Hyprland dotfiles
     </div>
 </div>
 
-<div>
-<ul>
-<li><a href='https://github.com/Jas-SinghFSU/'>Jas-SinghFSU</a> for making <a href='https://github.com/Jas-SinghFSU/HyprPanel'>Hyprpanel</a></li>
-<li><a href='https://github.com/Aylur/'> Aylur</a> for making <a href='https://github.com/Aylur/ags''>ags</a></li>
-<li><a href='https://github.com/end-4'> end-4 </a> for ags scripts and other hyprland <a href='https://github.com/end-4/dots-hyprland'>
-configs</a></li>
-<li><a href='https://github.com/adi1090x/'>adil090x</a> for <a href='https://github.com/adi1090x/rofi'> rofi themes</a></li>
-</ul>
-</div>
+* [Jas-SinghFSU](https://github.com/Jas-SinghFSU/) for making [Hyprpanel](https://github.com/Jas-SinghFSU/HyprPanel)
+* [Aylur](https://github.com/Aylur/) for making [ags](https://github.com/Aylur/ags)
+* [end-4](https://github.com/end-4) for ags scripts and other hyprland [configs](https://github.com/end-4/dots-hyprland)
+* [adil090x](https://github.com/adi1090x/) for [rofi themes](https://github.com/adi1090x/rofi)
