@@ -1,0 +1,127 @@
+{
+  "bar.customModules.updates.pollingInterval": 1440000,
+  "tear": true,
+  "theme.font.weight": 600,
+  "theme.font.size": "1rem",
+  "theme.bar.scaling": 85,
+  "theme.bar.floating": true,
+  "theme.bar.buttons.enableBorders": true,
+  "theme.bar.buttons.borderSize": "0.1em",
+  "theme.bar.outer_spacing": "2.6em",
+  "theme.bar.buttons.y_margins": "-0.1em",
+  "theme.bar.buttons.radius": "0.3em",
+  "theme.bar.layer": "top",
+  "theme.bar.margin_top": "0.5em",
+  "theme.bar.border_radius": "0.4em",
+  "theme.bar.margin_sides": "0.5em",
+  "theme.bar.buttons.dashboard.enableBorder": false,
+  "theme.bar.buttons.workspaces.enableBorder": false,
+  "theme.bar.location": "top",
+  "bar.workspaces.numbered_active_indicator": "underline",
+  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.show_icons": false,
+  "theme.bar.buttons.workspaces.smartHighlight": true,
+  "bar.workspaces.hideUnoccupied": false,
+  "bar.windowtitle.custom_title": true,
+  "bar.volume.label": true,
+  "bar.bluetooth.label": false,
+  "theme.bar.buttons.systray.enableBorder": true,
+  "bar.media.show_label": true,
+  "bar.media.truncation": true,
+  "bar.notifications.show_total": false,
+  "menus.clock.time.military": true,
+  "bar.clock.format": "%a %b %d  %I:%M %p",
+  "menus.dashboard.stats.enable_gpu": false,
+  "bar.customModules.netstat.networkInterface": "wlan0",
+  "theme.bar.buttons.modules.kbLayout.enableBorder": false,
+  "theme.bar.menus.monochrome": true,
+  "wallpaper.pywal": true,
+  "theme.bar.menus.border.radius": "0.7em",
+  "theme.matugen": false,
+  "theme.bar.transparent": true,
+  "theme.bar.margin_bottom": "0em",
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "netstat",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "systray",
+        "volume",
+        "network",
+        "kbinput",
+        "battery",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "theme.osd.duration": 2500,
+  "theme.osd.orientation": "horizontal",
+  "theme.osd.location": "top",
+  "theme.osd.margins": "50px 0px 0px 0px",
+  "theme.osd.muted_zero": true,
+  "theme.osd.radius": "0.6em",
+  "wallpaper.image": "/home/chiko/Pictures/Link%20to%20W&P/wallhaven-5g9ed8.png",
+  "theme.bar.buttons.monochrome": false,
+  "bar.workspaces.scroll_speed": 5,
+  "wallpaper.enable": true,
+  "theme.matugen_settings.mode": "dark",
+  "bar.workspaces.showAllActive": true,
+  "theme.bar.buttons.windowtitle.enableBorder": false,
+  "theme.bar.buttons.spacing": "0.25em",
+  "theme.bar.buttons.padding_y": "0.2rem",
+  "theme.bar.menus.menu.power.scaling": 100,
+  "theme.bar.buttons.padding_x": "0.7rem",
+  "theme.bar.opacity": 100,
+  "theme.bar.buttons.opacity": 100,
+  "theme.font.name": "Ubuntu Nerd Font",
+  "scalingPriority": "gdk",
+  "notifications.active_monitor": true,
+  "theme.bar.buttons.modules.netstat.enableBorder": false,
+  "bar.customModules.netstat.icon": "󰣺",
+  "bar.customModules.netstat.labelType": "full",
+  "bar.customModules.netstat.round": true,
+  "bar.customModules.kbLayout.icon": "",
+  "bar.customModules.kbLayout.labelType": "code",
+  "bar.customModules.kbLayout.leftClick": "",
+  "bar.customModules.updates.icon": "󰏖",
+  "menus.dashboard.powermenu.avatar.image": "/home/chiko/Pictures/a714d6b4-97de-405a-8161-1146babfad6e.jpeg",
+  "notifications.timeout": 2000
+}
