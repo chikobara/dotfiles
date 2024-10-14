@@ -21,6 +21,14 @@ Arch Linux with Hyprland dotfiles
 - **GUI Basic-IDE** • [NvChad](https://github.com/NvChad/NvChad) Rice
   IDE!
 
+
+## Dependencies
+
+
+## ToDo
+- [ ] writedown the dependecies
+- [ ] make an installer script
+
 <div align='center'>
     <div align="center">
     <h2>• screenshots •</h2>
