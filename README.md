@@ -37,7 +37,7 @@ Arch Linux with Hyprland dotfiles
 ## ToDo
 - [ ] writedown the dependecies
 - [ ] make an installer script
-
+- [ ] write the keymap guide
 
 <div align='center'>
     <br/>
