@@ -49,7 +49,7 @@
 
 - [ ] writedown the dependecies
 - [ ] make an installer script
-- [X] write the keybind table guide
+- [X] ~~write the keybind table guide~~
 
 # Keybind Table
 
