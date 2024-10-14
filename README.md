@@ -22,6 +22,15 @@ Arch Linux with Hyprland dotfiles
   IDE!
 
 
+<div align='center'>
+    <div align="center">
+    <h2>• screenshots •</h2>
+    <img src='scr.jpg'>
+    </div>
+</div>
+
+
+
 ## Dependencies
 
 
@@ -29,12 +38,6 @@ Arch Linux with Hyprland dotfiles
 - [ ] writedown the dependecies
 - [ ] make an installer script
 
-<div align='center'>
-    <div align="center">
-    <h2>• screenshots •</h2>
-    <img src='scr.jpg'>
-    </div>
-</div>
 
 <div align='center'>
     <br/>
