@@ -123,5 +123,16 @@
   "bar.customModules.kbLayout.leftClick": "",
   "bar.customModules.updates.icon": "󰏖",
   "menus.dashboard.powermenu.avatar.image": "/home/chiko/Pictures/a714d6b4-97de-405a-8161-1146babfad6e.jpeg",
-  "notifications.timeout": 2000
+  "notifications.timeout": 2000,
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "",
+  "menus.dashboard.shortcuts.left.shortcut2.command": "spotify",
+  "menus.dashboard.shortcuts.left.shortcut4.command": "fuzzel",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "brave",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Brave",
+  "menus.dashboard.directories.left.directory1.command": "bash -c \"nemo $HOME/Downloads/\"",
+  "menus.dashboard.directories.left.directory2.command": "bash -c \"nemo $HOME/Videos/\"",
+  "menus.dashboard.directories.left.directory3.command": "bash -c \"nemo $HOME/Projects/\"",
+  "menus.dashboard.directories.right.directory1.command": "bash -c \"nemo $HOME/Documents/\"",
+  "menus.dashboard.directories.right.directory2.command": "bash -c \"nemo $HOME/Pictures/\"",
+  "menus.dashboard.directories.right.directory3.command": "bash -c \"nemo $HOME/\""
 }
