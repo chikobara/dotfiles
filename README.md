@@ -52,4 +52,4 @@ Arch Linux with Hyprland dotfiles
 - [Aylur](https://github.com/Aylur/) for making [ags](https://github.com/Aylur/ags)
 - [end-4](https://github.com/end-4) for ags scripts and other hyprland [configs](https://github.com/end-4/dots-hyprland)
 - [adil090x](https://github.com/adi1090x/) for [rofi themes](https://github.com/adi1090x/rofi)
-- many others for inspiration! <3
+- r/Unixporn and many others for inspiration! <3
