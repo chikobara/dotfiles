@@ -7,16 +7,16 @@
 - [Tools used](#tools-used)
 - [Dependencies](#dependencies)
 - [ToDo](#todo)
-  - [Keybind Table](#keybind-table)
-    - [Essentials](#essentials)
-    - [Actions](#actions)
-    - [Session Management](#session-management)
-    - [Window Management](#window-management)
-    - [Workspace Navigation](#workspace-navigation)
-    - [Workspace Management](#workspace-management)
-    - [Widgets](#widgets)
-    - [Media Controls](#media-controls)
-    - [Application Shortcuts](#application-shortcuts)
+- [Keybind Table](#keybind-table)
+  - [Essentials](#essentials)
+  - [Actions](#actions)
+  - [Session Management](#session-management)
+  - [Window Management](#window-management)
+  - [Workspace Navigation](#workspace-navigation)
+  - [Workspace Management](#workspace-management)
+  - [Widgets](#widgets)
+  - [Media Controls](#media-controls)
+  - [Application Shortcuts](#application-shortcuts)
 
 # Tools used
 
@@ -51,17 +51,17 @@
 - [ ] make an installer script
 - [X] write the keybind table guide
 
-## Keybind Table
+# Keybind Table
 
 Note: Some keybindings may be hidden or have alternatives. This table includes the primary visible keybindings from the configuration file.
 
-### Essentials
+## Essentials
 | Keybind | Action |
 |---------|--------|
 | Super + R | Launch terminal (kitty) |
 | Ctrl + Super + T | Change wallpaper |
 
-### Actions
+## Actions
 | Keybind | Action |
 |---------|--------|
 | Super + V | Open clipboard history |
@@ -75,14 +75,14 @@ Note: Some keybindings may be hidden or have alternatives. This table includes t
 | Super + Alt + R | Record region (no sound) |
 | Super + Shift + Alt + R | Record screen (with sound) |
 
-### Session Management
+## Session Management
 | Keybind | Action |
 |---------|--------|
 | Super + L | Lock session |
 | Super + Shift + L | Suspend system |
 | Ctrl + Shift + Alt + Super + Delete | Power off |
 
-### Window Management
+## Window Management
 | Keybind | Action |
 |---------|--------|
 | Super + Arrow Keys | Move focus in direction |
@@ -95,7 +95,7 @@ Note: Some keybindings may be hidden or have alternatives. This table includes t
 | Super + F | Toggle fullscreen |
 | Super + D | Toggle fullscreen (preserve gaps) |
 
-### Workspace Navigation
+## Workspace Navigation
 | Keybind | Action |
 |---------|--------|
 | Super + [1-0] | Switch to workspace 1-10 |
@@ -103,7 +103,7 @@ Note: Some keybindings may be hidden or have alternatives. This table includes t
 | Super + Mouse Wheel | Focus left/right workspace |
 | Super + Page Up/Down | Focus left/right workspace |
 
-### Workspace Management
+## Workspace Management
 | Keybind | Action |
 |---------|--------|
 | Super + Alt + [1-0] | Move window to workspace 1-10 |
@@ -112,7 +112,7 @@ Note: Some keybindings may be hidden or have alternatives. This table includes t
 | Super + Alt + Page Up/Down | Move window to left/right workspace |
 | Super + P | Pin window (stays visible on all workspaces) |
 
-### Widgets
+## Widgets
 | Keybind | Action |
 |---------|--------|
 | Ctrl + Super + R | Restart widgets |
@@ -126,14 +126,14 @@ Note: Some keybindings may be hidden or have alternatives. This table includes t
 | Ctrl + Alt + Delete | Toggle power menu |
 | Ctrl + Super + G | Toggle crosshair |
 
-### Media Controls
+## Media Controls
 | Keybind | Action |
 |---------|--------|
 | Super + Shift + N | Next track |
 | Super + Shift + B | Previous track |
 | Super + Shift + P | Play/pause media |
 
-### Application Shortcuts
+## Application Shortcuts
 | Keybind | Action |
 |---------|--------|
 | Super + T | Launch terminal (foot) |
