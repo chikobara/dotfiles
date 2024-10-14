@@ -2,11 +2,23 @@
     <h1>Dotfiles</h1>
 </div>
 
-# My awesome dotfiles
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Tools used](#tools-used)
+- [Dependencies](#dependencies)
+- [ToDo](#todo)
+  - [Keybind Table](#keybind-table)
+    - [Essentials](#essentials)
+    - [Actions](#actions)
+    - [Session Management](#session-management)
+    - [Window Management](#window-management)
+    - [Workspace Navigation](#workspace-navigation)
+    - [Workspace Management](#workspace-management)
+    - [Widgets](#widgets)
+    - [Media Controls](#media-controls)
+    - [Application Shortcuts](#application-shortcuts)
 
-Arch Linux with Hyprland dotfiles
-
-### Tools used
+# Tools used
 
 - **Window Manager** • [Hyprland](https://github.com/hyprwm/Hyprland)🎨 Tiles
   Everywhere!
@@ -28,29 +40,20 @@ Arch Linux with Hyprland dotfiles
     </div>
 </div>
 
+<br/>
+<br/>
+
+# Dependencies
+
+# ToDo
+
+- [ ] writedown the dependecies
+- [ ] make an installer script
+- [X] write the keybind table guide
+
 ## Keybind Table
 
 Note: Some keybindings may be hidden or have alternatives. This table includes the primary visible keybindings from the configuration file.
-
-#### Table of Contents
-- [My awesome dotfiles](#my-awesome-dotfiles)
-    - [Tools used](#tools-used)
-  - [Keybind Table](#keybind-table)
-      - [Table of Contents](#table-of-contents)
-    - [Essentials](#essentials)
-    - [Actions](#actions)
-    - [Session Management](#session-management)
-    - [Window Management](#window-management)
-    - [Workspace Navigation](#workspace-navigation)
-    - [Workspace Management](#workspace-management)
-    - [Widgets](#widgets)
-    - [Media Controls](#media-controls)
-    - [Application Shortcuts](#application-shortcuts)
-  - [Dependencies](#dependencies)
-  - [ToDo](#todo)
-
-<details>
-  <summary>Here is a table with all keybindings</summary>
 
 ### Essentials
 | Keybind | Action |
@@ -147,20 +150,8 @@ Note: Some keybindings may be hidden or have alternatives. This table includes t
 | Ctrl + Super + / | Toggle fallback launcher (anyrun) |
 | Super + Alt + / | Toggle fallback launcher (fuzzel) |
 
-</details>
-
 ---
 
-<br/>
-<br/>
-
-## Dependencies
-
-## ToDo
-
-- [ ] writedown the dependecies
-- [ ] make an installer script
-- [X] write the keybind table guide
 
 <div align='center'>
     <br/>
