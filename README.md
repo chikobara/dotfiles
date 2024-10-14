@@ -1,4 +1,5 @@
 <div align="center">
+    <i class="fa-brands fa-linux"></i>
     <h1>Dotfiles</h1>
 </div>
 
