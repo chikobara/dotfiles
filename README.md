@@ -35,7 +35,7 @@
 
 <div align='center'>
     <div align="center">
-    <h2>• screenshots •</h2>
+    <h2>🍙• Screenshots •🍙</h2>
     <img src='scr.jpg'>
     </div>
 </div>
