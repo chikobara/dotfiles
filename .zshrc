@@ -140,6 +140,9 @@ alias cls="clear && exec zsh"
 alias y=yazi
 alias lg=lazygit
 alias exiftool="perl ~/Downloads/Image-ExifTool-12.97/exiftool"
+alias cpu="cpufreqctl turbo get"
+alias cpuoff="sudo cpufreqctl turbo set off && cpufreqctl turbo get "
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source /home/chiko/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zshrc.d/auto-Hypr.sh
@@ -151,3 +154,6 @@ source ~/.config/zshrc.d/auto-Hypr.sh
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 [ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
+. "/home/chiko/.deno/env"
+# Created by `pipx` on 2024-10-20 01:45:11
+export PATH="$PATH:/home/chiko/.local/bin"

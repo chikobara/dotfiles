@@ -21,6 +21,7 @@ import {
 } from 'lib/types/options';
 import { MatugenScheme, MatugenTheme, MatugenVariations } from 'lib/types/options';
 import { UnitType } from 'lib/types/weather';
+import { Transition } from 'lib/types/widget';
 import { WorkspaceIcons, WorkspaceIconsColored } from 'lib/types/workspace';
 
 // WARN: CHANGING THESE VALUES WILL PREVENT MATUGEN COLOR GENERATION FOR THE CHANGED VALUE
@@ -527,6 +528,11 @@ const options = mkOptions(OPTIONS, {
                             passive: opt(colors.text),
                             active: opt(colors.mauve),
                         },
+                        switch: {
+                            enabled: opt(colors.mauve),
+                            disabled: opt(tertiary_colors.surface0),
+                            puck: opt(secondary_colors.surface1),
+                        },
                     },
                     bluetooth: {
                         scaling: opt(100),
@@ -906,6 +912,7 @@ const options = mkOptions(OPTIONS, {
         },
         battery: {
             label: opt(true),
+            hideLabelWhenFull: opt(false),
             rightClick: opt(''),
             middleClick: opt(''),
             scrollUp: opt(''),
@@ -935,6 +942,7 @@ const options = mkOptions(OPTIONS, {
         },
         notifications: {
             show_total: opt(false),
+            hideCountWhenZero: opt(false),
             rightClick: opt(''),
             middleClick: opt(''),
             scrollUp: opt(''),
@@ -1007,6 +1015,7 @@ const options = mkOptions(OPTIONS, {
             },
             submap: {
                 label: opt(true),
+                showSubmapName: opt(true),
                 enabledIcon: opt('󰌐'),
                 disabledIcon: opt('󰌌'),
                 enabledText: opt('Submap On'),
@@ -1039,30 +1048,37 @@ const options = mkOptions(OPTIONS, {
     },
 
     menus: {
+        transition: opt<Transition>('crossfade'),
+        transitionTime: opt(200),
         power: {
             showLabel: opt(true),
             confirmation: opt(true),
             sleep: opt('systemctl suspend'),
             reboot: opt('systemctl reboot'),
-            logout: opt('pkill Hyprland'),
-            shutdown: opt('shutdown now'),
+            logout: opt('hyprctl dispatch exit'),
+            shutdown: opt('systemctl poweroff'),
         },
         dashboard: {
             powermenu: {
                 confirmation: opt(true),
                 sleep: opt('systemctl suspend'),
                 reboot: opt('systemctl reboot'),
-                logout: opt('pkill Hyprland'),
-                shutdown: opt('shutdown now'),
+                logout: opt('hyprctl dispatch exit'),
+                shutdown: opt('systemctl poweroff'),
                 avatar: {
                     image: opt('avatar-default-symbolic'),
                     name: opt<'system' | string>('system'),
                 },
             },
             stats: {
+                enabled: opt(true),
                 enable_gpu: opt(false),
             },
+            controls: {
+                enabled: opt(true),
+            },
             shortcuts: {
+                enabled: opt(true),
                 left: {
                     shortcut1: {
                         icon: opt('󰇩'),
@@ -1099,6 +1115,7 @@ const options = mkOptions(OPTIONS, {
                 },
             },
             directories: {
+                enabled: opt(true),
                 left: {
                     directory1: {
                         label: opt('󰉍 Downloads'),
@@ -1132,6 +1149,7 @@ const options = mkOptions(OPTIONS, {
         clock: {
             time: {
                 military: opt(false),
+                hideSeconds: opt(false),
             },
             weather: {
                 enabled: opt(true),
@@ -1165,6 +1183,7 @@ const options = mkOptions(OPTIONS, {
         active_monitor: opt(true),
         timeout: opt(7000),
         cache_actions: opt(true),
+        clearDelay: opt(100),
     },
 
     dummy: opt(true),
