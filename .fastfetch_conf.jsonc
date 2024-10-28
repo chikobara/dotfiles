@@ -2,7 +2,7 @@
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
     "type": "kitty",
-    "source": "~/pixelparadise.jpg",
+    "source": "~/astro.png",
     "width": 25,
     "padding": {
       "top": 2,
@@ -32,7 +32,6 @@
     "gpu",
     "memory",
     "localip",
-    "break",
-    "colors"
+    "break"
   ]
 }
