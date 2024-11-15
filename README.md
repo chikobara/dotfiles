@@ -27,7 +27,7 @@
   with gpu support!
 - **Panel** • [Hyprpanel](https://github.com/Jas-SinghFSU/HyprPanel)🍧 A Bar/Panel for Hyprland with extensive customizability.
 - **Notify Daemon** • ~~[Dunst](https://github.com/dunst-project/dunst) 🍃
-  Minimalist and functional!~~ was\  its hyprpanel now handling the notifications
+  Minimalist and functional!~~ was\  its hyprpanel now handling the notifications with [Swaync](https://github.com/ErikReider/SwayNotificationCenter)
 - **Launcher** • [Rofi](https://github.com/davatorium/rofi) 🚀 A window switcher, application launcher and dmenu replacement
 - **File Manager** • [yazi](https://github.com/sxyazi/yazi)🔖 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 - **GUI Basic-IDE** • [NvChad](https://github.com/NvChad/NvChad) Rice
