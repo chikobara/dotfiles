@@ -1,3 +1,6 @@
+# (cat ~/.cache/wal/sequences &)
+# source ~/.cache/wal/colors.sh
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -123,7 +126,7 @@ export PATH=$PATH:/home/chiko/.spicetify
 
 alias hz144="wlr-randr --output eDP-1 --custom-mode 1920x1080@144"
 alias hz60="wlr-randr --output eDP-1 --custom-mode 1920x1080@60"
-alias cat="bat --theme OneHalfDark "
+alias bat="bat --theme OneHalfDark "
 alias ls="eza -1lxh  -F --classify=always --color=always --icons=always --no-quotes --hyperlink --group-directories-first --no-user --git -@"
 alias la="eza -1oxlhA -F --classify=always --color=always --icons=always --no-quotes --hyperlink --group-directories-first --no-user"
 alias l="ls"
@@ -136,12 +139,17 @@ alias dgpu="supergfxctl -m Hybrid && gnome-session-quit --logout"
 alias igpu="supergfxctl -m Integrated && gnome-session-quit --logout"
 alias ff="fastfetch -c ~/.fastfetch_conf.jsonc"
 alias nf="neofetch --disable gpu wm shell packages terminal wm_theme --cpu_speed off --cpu_cores off --distro_shorthand on --gtk2 off --gtk3 off --bold on --color_blocks off --colors 4 4 4 4 --ascii_distro arch_small --ascii_colors 4 7"
-alias cls="clear && exec zsh"
+alias cls="clear && fastfetch -c ~/.fastfetch_conf.jsonc"
 alias y=yazi
 alias lg=lazygit
 alias exiftool="perl ~/Downloads/Image-ExifTool-12.97/exiftool"
 alias cpu="cpufreqctl turbo get"
-alias cpuoff="sudo cpufreqctl turbo set off && cpufreqctl turbo get "
+alias cpuoff="cpufreqctl turbo get && sudo cpufreqctl turbo set off && cpufreqctl turbo get "
+alias cpuon="cpufreqctl turbo get && sudo cpufreqctl turbo set on && cpufreqctl turbo get "
+alias yq="yay -Qi"
+
+alias yq="yay -Qi"
+alias q=exit
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source /home/chiko/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -150,10 +158,10 @@ source ~/.config/zshrc.d/auto-Hypr.sh
 # bun completions
 [ -s "/home/chiko/.bun/_bun" ] && source "/home/chiko/.bun/_bun"
 
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
-. "/home/chiko/.deno/env"
-# Created by `pipx` on 2024-10-20 01:45:11
-export PATH="$PATH:/home/chiko/.local/bin"
+# source /usr/share/nvm/init-nvm.sh
+source /home/chiko/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/chiko/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+alias vpnoff="systemctl stop openvpn-client@riseup.service"   
+alias vpnon="systemctl start openvpn-client@riseup.service"   
+alias tb="nc termbin.com 9999"

@@ -5,8 +5,6 @@
 # Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Tools used](#tools-used)
-- [Dependencies](#dependencies)
-- [ToDo](#todo)
 - [Keybind Table](#keybind-table)
   - [Essentials](#essentials)
   - [Actions](#actions)
@@ -42,14 +40,6 @@
 
 <br/>
 <br/>
-
-# Dependencies
-
-# ToDo
-
-- [ ] writedown the dependecies
-- [ ] make an installer script
-- [X] ~~write the keybind table guide~~
 
 # Keybind Table
 
