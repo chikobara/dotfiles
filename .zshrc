@@ -122,6 +122,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export PATH=$PATH:/home/chiko/.spicetify
+export CHROME_EXECUTABLE=/usr/bin/brave
 #unifetch --ascii_distro Arch --color_blocks off 
 
 alias hz144="wlr-randr --output eDP-1 --custom-mode 1920x1080@144"
@@ -135,8 +136,8 @@ alias vi="nvim"
 alias nv="nvim"
 alias s='shutdown -P'
 alias b="btop"
-alias dgpu="supergfxctl -m Hybrid && gnome-session-quit --logout"
-alias igpu="supergfxctl -m Integrated && gnome-session-quit --logout"
+alias dgpu="supergfxctl -m Hybrid && hyprctl dispatch exit"
+alias igpu="supergfxctl -m Integrated && hyprctl dispatch exit"
 alias ff="fastfetch -c ~/.fastfetch_conf.jsonc"
 alias nf="neofetch --disable gpu wm shell packages terminal wm_theme --cpu_speed off --cpu_cores off --distro_shorthand on --gtk2 off --gtk3 off --bold on --color_blocks off --colors 4 4 4 4 --ascii_distro arch_small --ascii_colors 4 7"
 alias cls="clear && fastfetch -c ~/.fastfetch_conf.jsonc"
@@ -165,3 +166,20 @@ source /home/chiko/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias vpnoff="systemctl stop openvpn-client@riseup.service"   
 alias vpnon="systemctl start openvpn-client@riseup.service"   
 alias tb="nc termbin.com 9999"
+alias el="./Downloads/github_downloads/evillimiter/run.sh"
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/chiko/.lmstudio/bin"
+# End of LM Studio CLI section
+
+
+# pnpm
+export PNPM_HOME="/home/chiko/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+export PATH="$HOME/.npm-global/bin:$PATH"
+
+# OpenClaw Completion
+source "/home/chiko/.openclaw/completions/openclaw.zsh"
