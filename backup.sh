@@ -1,6 +1,6 @@
 #!/bin/bash
 
-script_dir="$(pwd)"
+script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 # Function to copy files/directories, replacing if they exist
 
 
@@ -19,11 +19,6 @@ echo
 echo "Backup Hyprland config"
 copy_item "$HOME/.config/hypr" "$script_dir/.config/"
 
-# Backup wlogout config
-echo
-echo "Backup wlogout config"
-copy_item "$HOME/.config/wlogout" "$script_dir/.config/"
-
 # Backup fuzzel config
 echo
 echo "Backup fuzzel config"
@@ -38,17 +33,10 @@ copy_item "$HOME/.config/qt6ct" "$script_dir/.config/"
 
 
 
-# Backup AGS config
+# Backup Noctalia config
 echo
-echo "Backup AGS config"
-copy_item "$HOME/Downloads/github_downloads/HyprPanel/." "$script_dir/.config/ags"
-
-
-
-# Backup rofi configs
-echo
-echo "Backup rofi config"
-copy_item "$HOME/.config/rofi" "$script_dir/.config/"
+echo "Backup Noctalia config"
+copy_item "$HOME/.config/noctalia" "$script_dir/.config/"
 
 # Backup Kitty config
 echo

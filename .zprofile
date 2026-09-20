@@ -4,3 +4,7 @@
 
 # Created by `pipx` on 2024-10-20 01:45:11
 export PATH="$PATH:/home/chiko/.local/bin"
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/chiko/.local/bin:$PATH"

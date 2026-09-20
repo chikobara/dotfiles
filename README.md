@@ -5,6 +5,7 @@
 # Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Tools used](#tools-used)
+- [Shell migration](#shell-migration)
 - [Keybind Table](#keybind-table)
   - [Essentials](#essentials)
   - [Actions](#actions)
@@ -23,13 +24,23 @@
 - **Shell** • [Zsh](https://www.zsh.org) 🐚
 - **Terminal** • [Kitty](https://github.com/kovidgoyal/kitty) 💻 A powerful term
   with gpu support!
-- **Panel** • [Hyprpanel](https://github.com/Jas-SinghFSU/HyprPanel)🍧 A Bar/Panel for Hyprland with extensive customizability.
-- **Notify Daemon** • ~~[Dunst](https://github.com/dunst-project/dunst) 🍃
-  Minimalist and functional!~~ was\  its hyprpanel now handling the notifications with [Swaync](https://github.com/ErikReider/SwayNotificationCenter)
-- **Launcher** • [Rofi](https://github.com/davatorium/rofi) 🚀 A window switcher, application launcher and dmenu replacement
+- **Panel + shell** • [Noctalia](https://github.com/noctalia-dev/noctalia) 🍧 A native Wayland desktop shell for Hyprland with bars, launcher, notifications, wallpaper, OSD, and control-center surfaces.
+- **Notify Daemon** • Noctalia notifications and OSD
+- **Launcher** • Noctalia launcher, with [Fuzzel](https://codeberg.org/dnkl/fuzzel) as a lightweight fallback
+- **Phone integration** • [KDE Connect](https://kdeconnect.kde.org/) daemon and tray indicator
 - **File Manager** • [yazi](https://github.com/sxyazi/yazi)🔖 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 - **GUI Basic-IDE** • [NvChad](https://github.com/NvChad/NvChad) Rice
   IDE!
+
+## Shell migration
+
+The default session now starts Noctalia v5 with `noctalia --daemon`. On EndeavourOS/Arch, install it with:
+
+```bash
+sudo pacman -S noctalia
+```
+
+Noctalia is now the only shell started by Hyprland. The removed legacy AGS/HyprPanel, Rofi, and wlogout configuration is kept in a recoverable migration snapshot under `~/.local/state/chiko-dotfiles-backups/`.
 
 <div align='center'>
     <div align="center">
@@ -49,15 +60,15 @@ Note: Some keybindings may be hidden or have alternatives. This table includes t
 | Keybind | Action |
 |---------|--------|
 | Super + R | Launch terminal (kitty) |
-| Ctrl + Super + T | Change wallpaper |
+| Ctrl + Super + T | Open Noctalia wallpaper picker |
 
 ## Actions
 | Keybind | Action |
 |---------|--------|
-| Super + V | Open clipboard history |
-| Super + Period | Open emoji picker |
-| Super + Shift + S | Take a screenshot (screen snip) |
-| Shift + Alt + S | Take a screenshot and open in editor |
+| Super + V | Open Noctalia clipboard history |
+| Super + Period | Open Noctalia emoji search |
+| Super + Shift + S | Take an annotated screenshot |
+| Shift + Alt + S | Save and copy a selected screenshot |
 | Super + Shift + T | OCR: Screen snip to text |
 | Super + Shift + C | Pick color (Hex) |
 | Print | Full screenshot to clipboard |
@@ -68,7 +79,7 @@ Note: Some keybindings may be hidden or have alternatives. This table includes t
 ## Session Management
 | Keybind | Action |
 |---------|--------|
-| Super + L | Lock session |
+| Super + L | Lock session with Noctalia |
 | Super + Shift + L | Suspend system |
 | Ctrl + Shift + Alt + Super + Delete | Power off |
 
@@ -105,16 +116,14 @@ Note: Some keybindings may be hidden or have alternatives. This table includes t
 ## Widgets
 | Keybind | Action |
 |---------|--------|
-| Ctrl + Super + R | Restart widgets |
-| Ctrl + Alt + / | Cycle bar mode |
-| Super (hold) | Toggle overview/launcher |
-| Super + / | Show cheatsheet |
-| Super + A | Toggle dashboard menu |
-| Super + S | Toggle energy menu |
-| Super + M | Toggle media menu |
-| Super + N | Toggle notifications menu |
-| Ctrl + Alt + Delete | Toggle power menu |
-| Ctrl + Super + G | Toggle crosshair |
+| Ctrl + Super + R | Restart Noctalia |
+| Ctrl + Alt + / | Toggle Noctalia bar |
+| Super + Tab | Open Noctalia launcher |
+| Super + A | Open Noctalia control center |
+| Super + S | Open Noctalia power tab |
+| Super + M | Open Noctalia media tab |
+| Super + N | Open Noctalia notifications tab |
+| Ctrl + Alt + Delete | Open Noctalia session menu |
 
 ## Media Controls
 | Keybind | Action |
@@ -137,7 +146,7 @@ Note: Some keybindings may be hidden or have alternatives. This table includes t
 | Ctrl + Super + V | Launch pavucontrol (volume mixer) |
 | Ctrl + Super + Shift + V | Launch EasyEffects |
 | Ctrl + Shift + Escape | Launch GNOME System Monitor |
-| Ctrl + Super + / | Toggle fallback launcher (anyrun) |
+| Ctrl + Super + / | Open Noctalia launcher |
 | Super + Alt + / | Toggle fallback launcher (fuzzel) |
 
 ---
@@ -151,8 +160,5 @@ Note: Some keybindings may be hidden or have alternatives. This table includes t
     </div>
 </div>
 
-- [Jas-SinghFSU](https://github.com/Jas-SinghFSU/) for making [Hyprpanel](https://github.com/Jas-SinghFSU/HyprPanel)
-- [Aylur](https://github.com/Aylur/) for making [ags](https://github.com/Aylur/ags)
-- [end-4](https://github.com/end-4) for ags scripts and other hyprland [configs](https://github.com/end-4/dots-hyprland)
-- [adil090x](https://github.com/adi1090x/) for [rofi themes](https://github.com/adi1090x/rofi)
+- [Noctalia maintainers](https://github.com/noctalia-dev/noctalia) for the current shell foundation
 - r/Unixporn and many others for inspiration! <3

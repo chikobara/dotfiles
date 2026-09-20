@@ -158,6 +158,7 @@ source ~/.config/zshrc.d/auto-Hypr.sh
 
 # bun completions
 [ -s "/home/chiko/.bun/_bun" ] && source "/home/chiko/.bun/_bun"
+export PATH="/home/chiko/.bun/bin:$PATH"
 
 # source /usr/share/nvm/init-nvm.sh
 source /home/chiko/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -183,3 +184,13 @@ export PATH="$HOME/.npm-global/bin:$PATH"
 
 # OpenClaw Completion
 source "/home/chiko/.openclaw/completions/openclaw.zsh"
+export PATH="/home/chiko/.local/bin:$PATH"
+
+
+
+alias tsup="sudo systemctl restart tailscaled.service && sudo tailscale up --accept-routes"
+alias tsdown="sudo tailscale down && sudo systemctl stop tailscaled.service"   
+alias wine-ge-custom='/opt/wine-ge-custom-opt/bin/wine'
+
+# kimi-code
+export PATH="/home/chiko/.kimi-code/bin:$PATH"

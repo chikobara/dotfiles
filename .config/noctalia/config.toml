@@ -1,0 +1,130 @@
+# Noctalia v5 configuration.
+#
+# This replaces the old HyprPanel/AGS shell. Keep compositor behaviour in
+# ~/.config/hypr; this file only configures the Wayland shell surfaces.
+
+[accessibility]
+ui_scale = 1.0
+high_contrast = false
+
+[shell]
+corner_radius_scale = 1.0
+font_family = "JetBrainsMono Nerd Font Propo"
+time_format = "{:%a %b %d  %I:%M %p}"
+date_format = "%A, %x"
+telemetry_enabled = false
+polkit_agent = true
+
+[shell.launcher]
+categories = true
+show_icons = true
+show_app_origin_indicator = true
+compact = false
+app_grid = false
+sort_by_usage = true
+provider_prefix = "/"
+auto_paste = "auto"
+
+[shell.mpris]
+blacklist = []
+
+[wallpaper]
+enabled = true
+fill_mode = "crop"
+transition = ["fade", "wipe", "disc", "stripes", "zoom"]
+transition_duration = 1000
+transition_on_startup = false
+
+[theme]
+mode = "dark"
+source = "builtin"
+builtin = "Catppuccin"
+pure_black_dark = false
+
+[theme.templates]
+enable_builtin_templates = false
+enable_community_templates = false
+
+[notification]
+enable_daemon = true
+show_app_name = true
+show_actions = true
+keep_dismissed_in_history = true
+layer = "top"
+background_opacity = 0.97
+offset_x = 20
+offset_y = 8
+
+[osd]
+position = "top_center"
+position_vertical = "top_center"
+orientation = "horizontal"
+background_opacity = 0.97
+offset_x = 20
+offset_y = 48
+
+[lockscreen]
+enabled = true
+lock_before_suspend = true
+
+[system.monitor]
+enabled = true
+cpu_poll_seconds = 2.0
+gpu_poll_seconds = 5.0
+memory_poll_seconds = 2.0
+network_poll_seconds = 3.0
+disk_poll_seconds = 10.0
+
+[calendar]
+enabled = false
+
+[weather]
+enabled = false
+
+[control_center]
+sidebar = "compact"
+show_shortcut_labels = false
+show_session_button = true
+hidden_tabs = ["weather", "calendar", "screen-time"]
+
+[bar.main]
+position = "top"
+thickness = 36
+background_opacity = 0.90
+radius = 12
+margin_ends = 12
+margin_edge = 10
+padding = 12
+widget_spacing = 6
+shadow = true
+reserve_space = true
+capsule = false
+
+start = ["launcher", "wallpaper", "workspaces"]
+center = ["clock"]
+end = ["media", "tray", "notifications", "clipboard", "network", "bluetooth", "volume", "brightness", "battery", "control-center", "session"]
+
+[bar.main.dead_zone.actions]
+left = "panel-toggle launcher"
+right = "panel-toggle control-center"
+middle = "none"
+scroll_up = "none"
+scroll_down = "none"
+
+[[control_center.shortcuts]]
+type = "wifi"
+
+[[control_center.shortcuts]]
+type = "bluetooth"
+
+[[control_center.shortcuts]]
+type = "nightlight"
+
+[[control_center.shortcuts]]
+type = "notification"
+
+[[control_center.shortcuts]]
+type = "wallpaper"
+
+[[control_center.shortcuts]]
+type = "session"

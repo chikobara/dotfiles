@@ -1,0 +1,3 @@
+[theme.templates.user.palette_creator_live]
+input_path  = "/home/chiko/.local/state/noctalia/plugins/materialized/community/palette-creator/templates/live-snapshot.tpl"
+output_path = "/home/chiko/.local/state/noctalia/plugin-data/kyle-palette-creator/live-snapshot.json"
