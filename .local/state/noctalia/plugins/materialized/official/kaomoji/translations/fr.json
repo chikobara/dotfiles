@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "notify_on_copy": {
+      "description": "Affiche une notification lorsqu'un kaomoji est copié dans le presse-papiers",
+      "label": "Notifier lors de la copie"
+    }
+  },
+  "title": "Kaomoji"
+}

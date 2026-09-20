@@ -1,0 +1,88 @@
+{
+  "nvtop": {
+    "fan_speed": "Fan Speed",
+    "gpu_clock": "GPU Clock",
+    "gpu_load": "GPU Load",
+    "memory_clock": "Memory Clock",
+    "memory_free": "Memory Free",
+    "memory_total": "Memory Total",
+    "memory_used": "Memory Used",
+    "nodata": "No data available",
+    "power": "Power",
+    "process": {
+      "cmdline": {
+        "label": "Command Line",
+        "tip": "Process Command Line"
+      },
+      "decode": {
+        "label": "DEC",
+        "tip": "Video Decoder Usage"
+      },
+      "encode": {
+        "label": "ENC",
+        "tip": "Video Encoder Usage"
+      },
+      "encode_decode": {
+        "label": "ENC/DEC",
+        "tip": "Video Encoder/Decoder Usage"
+      },
+      "gpu_mem": {
+        "label": "VRAM",
+        "tip": "GPU Memory Usage"
+      },
+      "gpu_usage": {
+        "label": "GPU",
+        "tip": "GPU Usage"
+      },
+      "pid": {
+        "label": "PID",
+        "tip": "Process ID"
+      }
+    },
+    "process_buttons": {
+      "cancel": {
+        "label": "Cancel",
+        "tip": "Cancel the expanded process view"
+      },
+      "copy_cmdline": {
+        "label": "Copy Command Line",
+        "tip": "Copy the process command line to the clipboard"
+      },
+      "copy_pid": {
+        "label": "Copy PID",
+        "tip": "Copy the process ID to the clipboard"
+      },
+      "force_kill": {
+        "label": "Terminate",
+        "tip": "Force kill the expanded process (SIGKILL)"
+      },
+      "kill": {
+        "label": "Kill",
+        "tip": "Kill the expanded process (SIGINT)"
+      }
+    },
+    "temperature": "Temperature"
+  },
+  "settings": {
+    "delay": {
+      "description": "Select the refresh rate (1 == 0.1s)",
+      "label": "Refresh rate"
+    },
+    "process_hover_background": {
+      "description": "Select the background color for hovered process rows",
+      "label": "Process hover background"
+    },
+    "process_hover_color": {
+      "description": "Select the text color for hovered process rows",
+      "label": "Process hover text color"
+    },
+    "sort_column_background": {
+      "description": "Select the background color for the sort column",
+      "label": "Sort column background"
+    },
+    "sort_column_color": {
+      "description": "Select the text color for the sort column",
+      "label": "Sort column text color"
+    }
+  }
+}

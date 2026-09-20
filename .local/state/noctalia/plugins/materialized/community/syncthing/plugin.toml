@@ -1,0 +1,112 @@
+# Syncthing status & control for Noctalia v5.
+# Port of the v4 syncthing-status plugin (by Pir0c0pter0) to the Luau plugin API,
+# with the Python helper replaced by direct REST calls (noctalia.http) and new
+# actions: per-folder pause/resume + rescan, and a global pause shortcut.
+
+id = "rylos/syncthing"
+name = "Syncthing"
+version = "2.1.1"
+plugin_api = 9
+author = "Marco Ziliani"
+license = "MIT"
+dependencies = ["syncthing", "gio", "xdg-open"]
+tags = ["bar", "panel", "service", "network", "utility", "indicator"]
+icon = "cloud-network"
+description = "Syncthing status and control: bar widget, detail panel with per-folder pause/rescan, and a global pause shortcut."
+
+# ── Plugin-level settings (shared by every entry, edited in Settings → Plugins) ──
+
+[[setting]]
+key = "url"
+type = "string"
+label_key = "settings.url.label"
+description_key = "settings.url.description"
+default = ""
+
+[[setting]]
+key = "api_key"
+type = "string"
+label_key = "settings.api_key.label"
+description_key = "settings.api_key.description"
+default = ""
+
+[[setting]]
+key = "config_path"
+type = "file"
+label_key = "settings.config_path.label"
+description_key = "settings.config_path.description"
+default = ""
+advanced = true
+
+[[setting]]
+key = "poll_interval"
+type = "int"
+label_key = "settings.poll_interval.label"
+description_key = "settings.poll_interval.description"
+default = 10
+min = 2
+max = 300
+
+[[setting]]
+key = "folders"
+type = "string_list"
+label_key = "settings.folders.label"
+description_key = "settings.folders.description"
+default = []
+advanced = true
+
+[[setting]]
+key = "notify_events"
+type = "bool"
+label_key = "settings.notify_events.label"
+description_key = "settings.notify_events.description"
+default = true
+
+[[setting]]
+key = "insecure_tls"
+type = "bool"
+label_key = "settings.insecure_tls.label"
+description_key = "settings.insecure_tls.description"
+default = false
+advanced = true
+
+# ── Entries ──────────────────────────────────────────────────────────────────
+
+[[service]]
+id = "poller"
+entry = "service.luau"
+
+[[widget]]
+id = "bar"
+entry = "bar.luau"
+
+  [[widget.setting]]
+  key = "show_pending"
+  type = "bool"
+  label_key = "settings.show_pending.label"
+  description_key = "settings.show_pending.description"
+  default = true
+
+[[panel]]
+id = "panel"
+entry = "panel.luau"
+width = 400
+height = 530
+placement = "attached"
+position = "auto"
+open_near_click = true
+
+[[shortcut]]
+id = "pause"
+entry = "shortcut.luau"
+
+[[launcher_provider]]
+id = "folders"
+entry = "launcher.luau"
+prefix = "st"
+glyph = "cloud-network"
+include_in_global_search = false
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop.luau"

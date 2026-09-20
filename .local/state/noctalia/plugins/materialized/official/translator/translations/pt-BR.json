@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "target_lang": {
+      "description": "Código de idioma usado quando nenhum idioma é especificado (ex.: en, fr, es)",
+      "label": "Idioma de Destino Padrão"
+    }
+  }
+}

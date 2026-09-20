@@ -1,0 +1,56 @@
+{
+  "applied": "Đã áp dụng hình nền",
+  "apply_failed": "Không thể áp dụng hình nền",
+  "applying": "Đang tải xuống…",
+  "category_anime": "Anime",
+  "category_general": "Chung",
+  "category_people": "Người",
+  "clear_resolution": "Xóa",
+  "download_failed": "Tải xuống thất bại",
+  "empty": "Không tìm thấy hình nền.",
+  "error": "Yêu cầu thất bại",
+  "filter_aspect_ratio": "Tỷ lệ khung hình",
+  "filter_categories": "Danh mục",
+  "filter_purity": "Nội dung",
+  "filter_resolution": "Độ phân giải",
+  "filter_sort": "Sắp xếp",
+  "loading": "Đang tải hình nền…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Nhạy cảm",
+  "ratio_any": "Bất kỳ",
+  "ratio_portrait": "Mọi màn hình dọc",
+  "ratio_wide": "Mọi màn hình ngang",
+  "resolution_height_placeholder": "Chiều cao",
+  "resolution_mode_atleast": "Tối thiểu",
+  "resolution_mode_exact": "Chính xác",
+  "resolution_mode_label": "Chế độ",
+  "resolution_width_placeholder": "Chiều rộng",
+  "search": "Tìm kiếm",
+  "search_placeholder": "Tìm thẻ (vd. thiên nhiên, thành phố ban đêm)",
+  "settings": {
+    "api_key": {
+      "description": "Khóa API Wallhaven tùy chọn để tăng giới hạn và truy cập NSFW.",
+      "label": "Khóa API"
+    },
+    "download_dir": {
+      "description": "Ghi đè tùy chọn cho tải xuống độ phân giải đầy đủ. Để trống sẽ dùng thư mục hình nền Noctalia.",
+      "label": "Thư mục tải xuống"
+    },
+    "glyph": {
+      "label": "Glyph thanh bar"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Ngày thêm",
+      "favorites": "Yêu thích",
+      "hot": "Phổ biến",
+      "random": "Ngẫu nhiên",
+      "relevance": "Liên quan",
+      "toplist": "Toplist",
+      "views": "Lượt xem"
+    }
+  },
+  "title": "Wallhaven"
+}

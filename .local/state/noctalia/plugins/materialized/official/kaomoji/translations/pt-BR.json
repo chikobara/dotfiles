@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "notify_on_copy": {
+      "description": "Exibir uma notificação quando um kaomoji for copiado para a área de transferência",
+      "label": "Notificar ao Copiar"
+    }
+  },
+  "title": "Kaomoji"
+}

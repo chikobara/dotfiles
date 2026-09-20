@@ -1,0 +1,46 @@
+id = "noctalia/wallhaven"
+name = "Wallhaven"
+version = "1.3.0"
+plugin_api = 9
+author = "noctalia"
+license = "MIT"
+dependencies = []
+tags = ["wallpaper"]
+icon = "photo"
+description = "Browse Wallhaven wallpapers."
+
+[[setting]]
+key = "api_key"
+type = "string"
+label_key = "settings.api_key.label"
+description_key = "settings.api_key.description"
+default = ""
+
+[[setting]]
+key = "download_dir"
+type = "folder"
+label_key = "settings.download_dir.label"
+description_key = "settings.download_dir.description"
+default = ""
+
+[[panel]]
+id = "browser"
+entry = "panel.luau"
+width = 920
+height = 780
+placement = "attached"
+position = "auto"
+
+[[widget]]
+id = "wallhaven"
+entry = "wallhaven.luau"
+
+  [[widget.setting]]
+  key = "glyph"
+  type = "glyph"
+  label_key = "settings.glyph.label"
+  default = "photo"
+
+[[shortcut]]
+id = "shortcut"
+entry = "shortcut.luau"

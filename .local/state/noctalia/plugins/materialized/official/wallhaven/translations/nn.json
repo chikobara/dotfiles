@@ -1,0 +1,43 @@
+{
+  "applied": "Bakgrunnsbilete er sett",
+  "apply_failed": "Kunne ikkje setja bakgrunnsbilete",
+  "applying": "Lastar ned…",
+  "category_anime": "Anime",
+  "category_general": "Generelt",
+  "category_people": "Menneske",
+  "download_failed": "Nedlasting feila",
+  "empty": "Fann ingen bakgrunnsbilete.",
+  "error": "Førespurnaden feila",
+  "filter_categories": "Kategoriar",
+  "filter_purity": "Innhald",
+  "filter_sort": "Sorter",
+  "loading": "Lastar bakgrunnsbilete…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Grenseverdi",
+  "search": "Søk",
+  "search_placeholder": "Søk etter taggar (t.d. natur, by om natta)",
+  "settings": {
+    "api_key": {
+      "description": "Valfri Wallhaven API-nøkkel for høgare grenser og NSFW-tilgang.",
+      "label": "API-nøkkel"
+    },
+    "download_dir": {
+      "description": "Valfri overstyring for nedlasting i full oppløysing. Tomt bruker Noctalia-bakgrunnsmappa.",
+      "label": "Nedlastingsmappe"
+    },
+    "glyph": {
+      "label": "Linjeglyf"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Dato lagt til",
+      "favorites": "Favorittar",
+      "random": "Tilfeldig",
+      "relevance": "Relevans",
+      "views": "Visningar"
+    }
+  },
+  "title": "Wallhaven"
+}

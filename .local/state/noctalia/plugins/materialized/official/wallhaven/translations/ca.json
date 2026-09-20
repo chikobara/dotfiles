@@ -1,0 +1,43 @@
+{
+  "applied": "Fons de pantalla aplicat",
+  "apply_failed": "No s'ha pogut aplicar el fons de pantalla",
+  "applying": "S'està descarregant…",
+  "category_anime": "Anime",
+  "category_general": "General",
+  "category_people": "Persones",
+  "download_failed": "La descàrrega ha fallat",
+  "empty": "No s'ha trobat cap fons de pantalla.",
+  "error": "La sol·licitud ha fallat",
+  "filter_categories": "Categories",
+  "filter_purity": "Contingut",
+  "filter_sort": "Ordre",
+  "loading": "S'estan carregant fons de pantalla…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Límit",
+  "search": "Cerca",
+  "search_placeholder": "Cerca etiquetes (p. ex. natura, ciutat de nit)",
+  "settings": {
+    "api_key": {
+      "description": "Clau API de Wallhaven opcional per a límits més alts i accés NSFW.",
+      "label": "Clau API"
+    },
+    "download_dir": {
+      "description": "Substitució opcional per a descàrregues a resolució completa. Buit usa la carpeta de fons de Noctalia.",
+      "label": "Directori de descàrrega"
+    },
+    "glyph": {
+      "label": "Glif de la barra"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Data d'addició",
+      "favorites": "Preferits",
+      "random": "Aleatori",
+      "relevance": "Rellevància",
+      "views": "Visualitzacions"
+    }
+  },
+  "title": "Wallhaven"
+}

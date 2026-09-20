@@ -1,0 +1,56 @@
+id = "kv7499/asus-fan"
+name = "ASUS TUF Fan Speed and Profile Switcher"
+version = "1.0.0"
+plugin_api = 9
+author = "kv7499"
+license = "MIT"
+icon = "car-fan"
+description = "Live CPU and GPU fan RPM monitor and profile switcher for ASUS TUF and ROG laptops."
+dependencies = ["asusctl"]
+tags = ["hardware", "bar", "system", "indicator"]
+
+[[setting]]
+key = "poll_interval_ms"
+type = "int"
+default = 2500
+min = 500
+max = 10000
+step = 250
+label_key = "settings.poll_interval_ms.label"
+description_key = "settings.poll_interval_ms.description"
+
+[[setting]]
+key = "show_label"
+type = "bool"
+default = true
+label_key = "settings.show_label.label"
+description_key = "settings.show_label.description"
+
+[[setting]]
+key = "display_mode"
+type = "select"
+default = "rpm"
+label_key = "settings.display_mode.label"
+description_key = "settings.display_mode.description"
+options = [
+  { label_key = "settings.display_mode.options.rpm", value = "rpm" },
+  { label_key = "settings.display_mode.options.profile", value = "profile" },
+  { label_key = "settings.display_mode.options.both", value = "both" }
+]
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "asus_fan"
+entry = "widget.luau"
+
+[[panel]]
+id = "panel"
+entry = "panel.luau"
+width = 300
+height = 240
+placement = "attached"
+position = "auto"
+open_near_click = true

@@ -1,0 +1,43 @@
+{
+  "applied": "Обои применены",
+  "apply_failed": "Не удалось применить обои",
+  "applying": "Загрузка…",
+  "category_anime": "Аниме",
+  "category_general": "Общее",
+  "category_people": "Люди",
+  "download_failed": "Не удалось загрузить",
+  "empty": "Обои не найдены.",
+  "error": "Запрос не выполнен",
+  "filter_categories": "Категории",
+  "filter_purity": "Контент",
+  "filter_sort": "Сортировка",
+  "loading": "Загрузка обоев…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Сомнительно",
+  "search": "Поиск",
+  "search_placeholder": "Поиск тегов (напр. природа, ночной город)",
+  "settings": {
+    "api_key": {
+      "description": "Необязательный ключ API Wallhaven для повышенных лимитов и доступа к NSFW.",
+      "label": "Ключ API"
+    },
+    "download_dir": {
+      "description": "Необязательная замена для загрузки в полном разрешении. Пустое значение использует папку обоев Noctalia.",
+      "label": "Папка загрузки"
+    },
+    "glyph": {
+      "label": "Глиф панели"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Дата добавления",
+      "favorites": "Избранное",
+      "random": "Случайно",
+      "relevance": "Релевантность",
+      "views": "Просмотры"
+    }
+  },
+  "title": "Wallhaven"
+}

@@ -1,0 +1,134 @@
+id         = "ezequiel/mango_layouts"
+name       = "Mango Layouts"
+version    = "1.0.0"
+plugin_api = 14
+author     = "ezequiel"
+license    = "MIT"
+icon       = "layout-filled"
+description = "Layout switcher for MangoWC"
+tags       = ["bar", "panel", "mangowc", "utility"]
+dependencies = ["jq", "mmsg"]
+
+[[widget]]
+id    = "btn"
+entry = "widget.luau"
+actions = {}
+
+# -- WIDGET SETTINGS --
+[[widget.setting]]
+key     = "show_glyph"
+type    = "bool"
+label_key = "show_icon_label"
+default = true
+
+[[widget.setting]]
+key     = "show_text"
+type    = "bool"
+label_key = "show_text_label"
+default = false
+
+[[widget.setting]]
+key     = "custom_color"
+type    = "string"
+label_key = "custom_color_label"
+description_key = "custom_color_desc"
+default = ""
+
+[[panel]]
+id = "panel"
+entry = "panel.luau"
+width = 240
+height = 250
+placement = "floating"
+position = "bottom_right"
+
+# -- GLOBAL SETTINGS --
+[[setting]]
+key     = "list_mode"
+type    = "bool"
+label_key = "list_mode_label"
+default = false
+
+[[setting]]
+key     = "show_tile"
+type    = "bool"
+label_key = "layout_tile_label"
+default = true
+
+[[setting]]
+key     = "show_scroller"
+type    = "bool"
+label_key = "layout_scroller_label"
+default = true
+
+[[setting]]
+key     = "show_monocle"
+type    = "bool"
+label_key = "layout_monocle_label"
+default = true
+
+[[setting]]
+key     = "show_grid"
+type    = "bool"
+label_key = "layout_grid_label"
+default = true
+
+[[setting]]
+key     = "show_fair"
+type    = "bool"
+label_key = "layout_fair_label"
+default = true
+
+[[setting]]
+key     = "show_deck"
+type    = "bool"
+label_key = "layout_deck_label"
+default = true
+
+[[setting]]
+key     = "show_dwindle"
+type    = "bool"
+label_key = "layout_dwindle_label"
+default = true
+
+[[setting]]
+key     = "show_center_tile"
+type    = "bool"
+label_key = "layout_center_tile_label"
+default = true
+
+[[setting]]
+key     = "show_vertical_tile"
+type    = "bool"
+label_key = "layout_vertical_tile_label"
+default = true
+
+[[setting]]
+key     = "show_right_tile"
+type    = "bool"
+label_key = "layout_right_tile_label"
+default = true
+
+[[setting]]
+key     = "show_vertical_scroller"
+type    = "bool"
+label_key = "layout_vertical_scroller_label"
+default = true
+
+[[setting]]
+key     = "show_vertical_grid"
+type    = "bool"
+label_key = "layout_vertical_grid_label"
+default = true
+
+[[setting]]
+key     = "show_vertical_deck"
+type    = "bool"
+label_key = "layout_vertical_deck_label"
+default = true
+
+[[setting]]
+key     = "show_vertical_fair"
+type    = "bool"
+label_key = "layout_vertical_fair_label"
+default = true

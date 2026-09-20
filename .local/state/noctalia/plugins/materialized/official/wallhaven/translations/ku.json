@@ -1,0 +1,43 @@
+{
+  "applied": "Wêne dîwar hate sepandin",
+  "apply_failed": "Wêne dîwar nehat sepandin",
+  "applying": "Tê daxistin…",
+  "category_anime": "Anime",
+  "category_general": "Giştî",
+  "category_people": "Kes",
+  "download_failed": "Daxistin bi ser neket",
+  "empty": "Tu wêne dîwar nehate dîtin.",
+  "error": "Daxwaz bi ser neket",
+  "filter_categories": "Kategorî",
+  "filter_purity": "Naverok",
+  "filter_sort": "Rêz kirin",
+  "loading": "Wêne dîwar tên barkirin…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Gumanbar",
+  "search": "Lêgerîn",
+  "search_placeholder": "Lê bigerin (mînak nature, bajar şevê)",
+  "settings": {
+    "api_key": {
+      "description": "Mifteya API ya Wallhaven ya bijartî ji bo sînorên bilindtir û gihîştina NSFW.",
+      "label": "Mifteya API"
+    },
+    "download_dir": {
+      "description": "Bijartî ji bo daxistina bi tevahî çareseriyê. Vala peldanka wêne dîwar a Noctalia bikar tîne.",
+      "label": "Peldanka daxistinê"
+    },
+    "glyph": {
+      "label": "Glifa barê"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Dîroka zêdekirinê",
+      "favorites": "Bijarte",
+      "random": "Tesadufî",
+      "relevance": "Peywendî",
+      "views": "Dîtîn"
+    }
+  },
+  "title": "Wallhaven"
+}

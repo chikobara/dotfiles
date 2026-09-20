@@ -1,0 +1,43 @@
+{
+  "applied": "Sfondo applicato",
+  "apply_failed": "Impossibile applicare lo sfondo",
+  "applying": "Download in corso…",
+  "category_anime": "Anime",
+  "category_general": "Generale",
+  "category_people": "Persone",
+  "download_failed": "Download non riuscito",
+  "empty": "Nessuno sfondo trovato.",
+  "error": "Richiesta non riuscita",
+  "filter_categories": "Categorie",
+  "filter_purity": "Contenuto",
+  "filter_sort": "Ordina",
+  "loading": "Caricamento sfondi…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Borderline",
+  "search": "Cerca",
+  "search_placeholder": "Cerca tag (es. natura, città di notte)",
+  "settings": {
+    "api_key": {
+      "description": "Chiave API Wallhaven facoltativa per limiti più alti e accesso NSFW.",
+      "label": "Chiave API"
+    },
+    "download_dir": {
+      "description": "Sostituzione facoltativa per i download a piena risoluzione. Vuoto usa la cartella sfondi di Noctalia.",
+      "label": "Cartella di download"
+    },
+    "glyph": {
+      "label": "Glifo della barra"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Data di aggiunta",
+      "favorites": "Preferiti",
+      "random": "Casuale",
+      "relevance": "Rilevanza",
+      "views": "Visualizzazioni"
+    }
+  },
+  "title": "Wallhaven"
+}

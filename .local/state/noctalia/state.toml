@@ -1,0 +1,38 @@
+[annotate]
+advanced_size = "0"
+color_arrow = "0.96,0.2,0.28,1"
+color_blur = "0.96,0.2,0.28,1"
+color_brush = "0.96,0.2,0.28,1"
+color_circle = "0.96,0.2,0.28,1"
+color_crop = "0.96,0.2,0.28,1"
+color_eraser = "0.96,0.2,0.28,1"
+color_highlighter = "1,0.91,0.2,1"
+color_line = "0.96,0.2,0.28,1"
+color_move = "0.96,0.2,0.28,1"
+color_numbering = "0.96,0.2,0.28,1"
+color_rectangle = "0.96,0.2,0.28,1"
+color_text = "0.96,0.2,0.28,1"
+fill = "0"
+tool = "crop"
+toolbar_positions = "{\"eDP-1\":{\"x\":374.1796875,\"y\":48.5234375}}"
+width_arrow = "6"
+width_blur = "32"
+width_brush = "6"
+width_circle = "6"
+width_crop = "6"
+width_eraser = "28"
+width_highlighter = "24"
+width_line = "6"
+width_move = "6"
+width_numbering = "32"
+width_rectangle = "6"
+width_text = "24"
+
+[plugin_store]
+sort = "name_asc"
+
+[security_migrations]
+calendar_credentials_v1 = true
+
+[theme_templates]
+applied_builtin_ids = ""

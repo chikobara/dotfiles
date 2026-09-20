@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "notify_on_copy": {
+      "description": "عرض إشعار عند نسخ kaomoji إلى الحافظة",
+      "label": "الإشعار عند النسخ"
+    }
+  },
+  "title": "Kaomoji"
+}

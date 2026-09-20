@@ -1,0 +1,98 @@
+{
+  "action": {
+    "apply": "Apply",
+    "apply_custom_mode": "Apply custom mode",
+    "cancel": "No",
+    "overwrite": "Overwrite"
+  },
+  "advanced": {
+    "color": "Color profile",
+    "hdr": "HDR",
+    "picture": "Picture",
+    "title": "Advanced display",
+    "unset": "Unset"
+  },
+  "card": {
+    "mirror": "Mirror",
+    "mode": "Mode",
+    "monitor": "Monitor",
+    "scale": "Scale"
+  },
+  "field": {
+    "custom": "Custom mode",
+    "enabled": "On",
+    "hdr": "HDR",
+    "hdr_force": "Force HDR",
+    "hdr_max_avg_lum": "Max average luminance",
+    "hdr_max_lum": "Peak luminance",
+    "hdr_min_lum": "Minimum luminance",
+    "height": "Height",
+    "icc": "ICC profile",
+    "last_output": "Last output",
+    "refresh": "Refresh rate",
+    "resolution": "Resolution",
+    "rr": "Rotation",
+    "vrr": "Variable refresh rate",
+    "width": "Width"
+  },
+  "mirror": {
+    "explain": "{source} is copied onto {destination}",
+    "from": "From",
+    "off": "Off",
+    "on": "On",
+    "service": {
+      "active": "Screen mirroring is active.",
+      "data_unavailable": "The plugin data directory is unavailable.",
+      "disconnected": "A selected monitor was disconnected.",
+      "exited": "wl-mirror exited unexpectedly.",
+      "invalid_pair": "Choose two different connected monitors.",
+      "launch_failed": "Noctalia could not launch wl-mirror.",
+      "missing_tool": "wl-mirror was not found in PATH.",
+      "ready": "Choose an output to mirror.",
+      "start_failed": "wl-mirror failed to start.",
+      "starting": "Launching wl-mirror…",
+      "stop_failed": "Could not stop wl-mirror.",
+      "stopped": "Screen mirroring stopped.",
+      "stopping": "Stopping wl-mirror…"
+    },
+    "to": "To"
+  },
+  "preview": {
+    "logical": "Apps see {width} × {height}"
+  },
+  "rescan": "Rescan outputs",
+  "settings": {
+    "auto_save": {
+      "description": "Rewrite the monitor rules whenever the layout changes, including arrangement made in wdisplays.",
+      "label": "Save layout automatically"
+    },
+    "glyph": {
+      "label": "Glyph"
+    },
+    "monitor_rules_path": {
+      "description": "Generated monitorrule lines are written here. Source it from your mango config.",
+      "label": "Monitor rules file"
+    }
+  },
+  "state": {
+    "current": "{resolution} · {refresh} Hz · {scale}x",
+    "off": "Currently off"
+  },
+  "status": {
+    "invalid_mode": "Custom mode must be width 1-9999, height 1-9999 and refresh 0.001-9999.",
+    "invalid_value": "{field} must be a number from 0 to 10000.",
+    "mirror_failed": "Could not start the mirror.",
+    "missing_tool": "wlr-randr is not installed.",
+    "no_outputs": "No enabled outputs.",
+    "no_profile_path": "No monitor rules path configured.",
+    "overwrite_required": "Monitor rules file contains other config. Overwrite it with generated monitor rules only?",
+    "query_failed": "wlr-randr could not list outputs.",
+    "save_failed": "Applied, but not saved: {error}",
+    "saved": "Applied and saved to mango.",
+    "toggle_failed": "mango could not toggle the monitor."
+  },
+  "title": "Display",
+  "widget": {
+    "tooltip": "Display (right-click to arrange)"
+  }
+}

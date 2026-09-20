@@ -1,0 +1,12 @@
+{
+  "error": {
+    "pick_failed": "Dosya seçici açılamadı"
+  },
+  "media": {
+    "next": "Sıradaki",
+    "play": "Çal"
+  },
+  "panel": {
+    "devices_connected": "{connected} bağlı"
+  }
+}

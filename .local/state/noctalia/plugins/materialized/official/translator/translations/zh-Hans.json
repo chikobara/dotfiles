@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "target_lang": {
+      "description": "未指定语言时使用的语言代码（例如 en、fr、es）",
+      "label": "默认目标语言"
+    }
+  }
+}

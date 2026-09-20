@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "audio_spectrum": {
+      "label": "Réagit aux sons"
+    },
+    "input_devices": {
+      "label": "Périphériques d'entrée"
+    },
+    "tappy_mode": {
+      "label": "Appuie sur le rythme"
+    },
+    "use_mpris_filter": {
+      "label": "Réagit uniquement lorsqu'un média est en cours de lecture"
+    }
+  }
+}

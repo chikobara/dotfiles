@@ -1,0 +1,7 @@
+{
+  "copied-password": "Copied password to clipboard",
+  "failed-list-vaults": "Failed to list vaults. Are you logged into pass-cli?",
+  "item-not-found": "Item not found",
+  "loading-items": "Loading Items…",
+  "loading-vaults": "Loading Vaults…"
+}

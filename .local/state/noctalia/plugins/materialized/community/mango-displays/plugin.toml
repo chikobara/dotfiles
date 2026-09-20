@@ -1,0 +1,65 @@
+# Per-output resolution, refresh rate and scale, applied through mango.
+# monitorrule lines in monitors.conf persist; reload_config applies them live.
+
+id = "prponkshe/mango-displays"
+name = "Mango Displays"
+version = "1.3.0"
+plugin_api = 22
+author = "prponkshe"
+license = "MIT"
+dependencies = ["mmsg", "wlr-randr", "wdisplays", "wl-mirror"]
+tags = ["bar", "panel", "service", "hardware", "mangowc"]
+icon = "device-desktop"
+description = "Set resolution, refresh rate and scale per connected monitor, and mirror one onto another."
+
+[[setting]]
+key = "auto_save"
+type = "bool"
+label_key = "settings.auto_save.label"
+description_key = "settings.auto_save.description"
+default = true
+
+[[setting]]
+key = "monitor_rules_path"
+type = "string"
+label_key = "settings.monitor_rules_path.label"
+description_key = "settings.monitor_rules_path.description"
+default = "~/.config/mango/monitors.conf"
+
+[[panel]]
+id = "panel"
+entry = "panel.luau"
+width = 470
+height = 580
+placement = "attached"
+position = "auto"
+open_near_click = true
+
+[[panel]]
+id = "advanced"
+entry = "advanced.luau"
+width = 470
+height = 600
+placement = "floating"
+position = "center"
+keyboard_focus = "exclusive"
+dismiss_on_outside_click = true
+capture_keys = ["escape"]
+
+[[service]]
+id = "watcher"
+entry = "service.luau"
+
+[[service]]
+id = "mirror"
+entry = "mirror-service.luau"
+
+[[widget]]
+id = "bar"
+entry = "widget.luau"
+
+  [[widget.setting]]
+  key = "glyph"
+  type = "glyph"
+  label_key = "settings.glyph.label"
+  default = "device-desktop"

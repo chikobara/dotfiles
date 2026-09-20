@@ -1,0 +1,58 @@
+{
+  "applied": "Papel de Parede aplicado",
+  "apply_failed": "Não foi possível aplicar o papel de parede",
+  "applying": "Baixando…",
+  "category_anime": "Anime",
+  "category_general": "Geral",
+  "category_people": "Pessoas",
+  "clear_resolution": "Apagar",
+  "download_failed": "Falha no download",
+  "empty": "Nenhum papel de parede encontrado.",
+  "error": "Falha na requisição",
+  "filter_aspect_ratio": "Proporção da Tela",
+  "filter_categories": "Categorias",
+  "filter_purity": "Conteúdo",
+  "filter_resolution": "Resolução",
+  "filter_sort": "Ordenar",
+  "loading": "Carregando papéis de parede…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Limítrofe",
+  "ratio_any": "Qualquer",
+  "ratio_portrait": "Todos Retrato",
+  "ratio_wide": "Todos Wide",
+  "resolution_height_placeholder": "Altura",
+  "resolution_mode_atleast": "No Mínimo",
+  "resolution_mode_exact": "Exata",
+  "resolution_mode_label": "Modo",
+  "resolution_width_placeholder": "Largura",
+  "search": "Buscar",
+  "search_placeholder": "Buscar tags (ex.: natureza, cidade à noite)",
+  "settings": {
+    "api_key": {
+      "description": "Chave de API do Wallhaven opcional para limites maiores e acesso NSFW",
+      "label": "Chave de API"
+    },
+    "download_dir": {
+      "description": "Substituição opcional para downloads em resolução completa. Vazio usa a pasta de papéis de parede do Noctalia",
+      "label": "Pasta de Download"
+    },
+    "glyph": {
+      "label": "Símbolo da Barra"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Data de Envio",
+      "favorites": "Favoritos",
+      "hot": "Populares",
+      "random": "Aleatório",
+      "relevance": "Relevância",
+      "toplist": "Toplist",
+      "views": "Visualizações"
+    }
+  },
+  "sort_asc": "Crescente",
+  "sort_desc": "Decrescente",
+  "title": "Wallhaven"
+}

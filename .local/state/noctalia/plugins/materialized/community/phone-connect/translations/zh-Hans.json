@@ -1,0 +1,130 @@
+{
+  "action": {
+    "accept": "接受",
+    "browse": "浏览",
+    "clipboard": "剪贴板",
+    "pair": "配对",
+    "ping": "Ping",
+    "refresh": "刷新",
+    "reject": "拒绝",
+    "ring": "响铃",
+    "share": "分享",
+    "sms": "短信",
+    "switch": "切换设备",
+    "unpair": "取消配对"
+  },
+  "error": {
+    "accept_failed": "接受配对失败",
+    "browse_failed": "浏览设备失败",
+    "cli_failed": "命令失败",
+    "clipboard_failed": "发送剪贴板失败",
+    "no_backend": "无后端",
+    "pairing_failed": "配对失败",
+    "pick_failed": "无法打开文件选择器",
+    "pick_in_progress": "文件选择器已打开",
+    "ping_failed": "发送 Ping 失败",
+    "reject_failed": "拒绝配对失败",
+    "ring_failed": "响铃失败",
+    "share_failed": "分享失败",
+    "unpair_failed": "取消配对失败"
+  },
+  "media": {
+    "mute": "静音",
+    "next": "下一首",
+    "pause": "暂停",
+    "play": "播放",
+    "previous": "上一首",
+    "stop": "停止",
+    "unmute": "恢复音量"
+  },
+  "notify": {
+    "clipboard_sent": "剪贴板已发送",
+    "file_shared": "正在发送文件到设备...",
+    "opening_browser": "正在打开文件浏览器...",
+    "paired": "设备已配对",
+    "pairing_sent": "已发送配对请求",
+    "ping_sent": "已向 {name} 发送 Ping",
+    "ringing": "正在响铃 {name}...",
+    "sms_sent": "短信已发送",
+    "unpaired": "设备已取消配对"
+  },
+  "panel": {
+    "battery": "电量",
+    "close": "关闭",
+    "devices_connected": "已连接 {connected}",
+    "empty": "未找到设备。请在 KDE Connect 中配对设备。",
+    "image_path": "自定义图片",
+    "network": "网络",
+    "no_media": "无媒体播放",
+    "now_playing": "正在播放",
+    "paired": "已配对",
+    "pairing": "配对",
+    "sms": "发送短信",
+    "sms_dest": "手机号码",
+    "sms_msg": "短信内容",
+    "sms_send": "发送",
+    "title": "手机连接",
+    "type": "类型",
+    "unknown": "未知",
+    "unpaired": "未配对"
+  },
+  "settings": {
+    "battery_display": {
+      "description": "选择栏部件显示电池图标、百分比、两者或都不显示。",
+      "hidden": "隐藏",
+      "icon": "仅图标",
+      "icon_and_percent": "图标和百分比",
+      "label": "电池显示",
+      "percent": "仅百分比"
+    },
+    "custom_image": {
+      "description": "选中设备后在此设置自定义头像图片。留空恢复默认图标。",
+      "label": "设备头像"
+    },
+    "device_alias": {
+      "description": "当前选中设备的自定义显示名称。",
+      "label": "设备别名"
+    },
+    "enable_charging_animation": {
+      "description": "设备充电时高亮显示栏部件。",
+      "label": "充电高亮"
+    },
+    "enable_clipboard_action": {
+      "description": "显示一键发送剪贴板到设备的快捷操作。",
+      "label": "显示剪贴板操作"
+    },
+    "language": {
+      "description": "显示语言。",
+      "en": "English",
+      "label": "界面语言",
+      "zh-hans": "简体中文"
+    },
+    "migrated": {
+      "description": "直接在面板中修改：点击设备头像更换图片，点击设备名称重命名。每台设备独立，自动保存。",
+      "label": "设备头像与名称"
+    },
+    "panel_placement": {
+      "attached": "贴合栏",
+      "description": "详情面板的弹出方式。",
+      "floating": "悬浮居中",
+      "label": "面板弹出方式",
+      "widget": "部件下方悬浮"
+    },
+    "show_device_name": {
+      "description": "在栏部件中显示选中设备的名称或别名。",
+      "label": "显示设备名称"
+    },
+    "state_update_interval": {
+      "description": "自动刷新设备状态的间隔秒数。0 表示禁用。",
+      "label": "状态刷新间隔"
+    }
+  },
+  "status": {
+    "connected": "已连接",
+    "no_backend": "KDE Connect 未运行",
+    "no_devices": "无设备",
+    "not_paired": "未配对",
+    "offline": "离线",
+    "unavailable": "不可用"
+  }
+}

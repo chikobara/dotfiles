@@ -1,0 +1,58 @@
+{
+  "applied": "تم تطبيق الخلفية",
+  "apply_failed": "فشل تطبيق الخلفية",
+  "applying": "جارٍ التنزيل…",
+  "category_anime": "أنيمي",
+  "category_general": "عام",
+  "category_people": "الناس",
+  "clear_resolution": "مسح",
+  "download_failed": "فشل التنزيل",
+  "empty": "لم يتم العثور على أي خلفيات.",
+  "error": "فشل الطلب",
+  "filter_aspect_ratio": "نسبة العرض إلى الارتفاع",
+  "filter_categories": "الفئات",
+  "filter_purity": "النقاء",
+  "filter_resolution": "الدقة",
+  "filter_sort": "فرز",
+  "loading": "جاري تحميل الخلفيات…\n",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Sketchy",
+  "ratio_any": "Any",
+  "ratio_portrait": "جميع الصور الشخصية",
+  "ratio_wide": "عريض بالكامل",
+  "resolution_height_placeholder": "الارتفاع",
+  "resolution_mode_atleast": "على الأقل",
+  "resolution_mode_exact": "بالضبط",
+  "resolution_mode_label": "الوضع",
+  "resolution_width_placeholder": "العرض",
+  "search": " بحث",
+  "search_placeholder": "علامات البحث (مثل: الطبيعة، المدينة ليلاً)",
+  "settings": {
+    "api_key": {
+      "description": "مفتاح API اختياري لـ Wallhaven للحصول على حدود معدل أعلى والوصول إلى المحتوى غير المناسب للعمل (NSFW)",
+      "label": "مفتاح API"
+    },
+    "download_dir": {
+      "description": "تجاوز اختياري لمجلد تنزيلات الدقة الكاملة؛ يُستخدم مجلد خلفيات Noctalia عند تركه فارغًا",
+      "label": "مجلد التنزيلات"
+    },
+    "glyph": {
+      "label": "رمز الشريط"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "تاريخ الإضافة",
+      "favorites": "المفضلة",
+      "hot": "شائع",
+      "random": "عشوائي",
+      "relevance": "الأهمية",
+      "toplist": "القائمة الرئيسية",
+      "views": "المشاهدات"
+    }
+  },
+  "sort_asc": "تصاعدي",
+  "sort_desc": "تنازلي",
+  "title": "Wallhaven"
+}

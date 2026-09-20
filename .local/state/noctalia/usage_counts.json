@@ -1,0 +1,13 @@
+{
+  "Applications": {
+    "/home/chiko/.local/share/applications/chatgpt.desktop": 2,
+    "/usr/share/applications/brave-browser.desktop": 1,
+    "/usr/share/applications/github-desktop.desktop": 1,
+    "/usr/share/applications/nwg-look.desktop": 1,
+    "/usr/share/applications/obsidian.desktop": 1,
+    "/usr/share/applications/org.kde.kdeconnect.app.desktop": 1,
+    "/usr/share/applications/org.kde.kdeconnect.nonplasma.desktop": 2,
+    "/usr/share/applications/org.telegram.desktop.desktop": 1,
+    "/usr/share/applications/wihotspot.desktop": 2
+  }
+}

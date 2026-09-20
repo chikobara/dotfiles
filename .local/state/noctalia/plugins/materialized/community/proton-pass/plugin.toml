@@ -1,0 +1,17 @@
+id = "lucasoe/proton-pass"
+name = "Proton Pass"
+version = "0.1.0"
+plugin_api = 3
+author = "LucasOe"
+license = "MIT"
+icon = "lock"
+description = "Access Proton Pass from the launcher"
+tags = ["launcher"]
+dependencies = ["proton-pass-cli"]
+
+[[launcher_provider]]
+id = "proton-pass"
+entry = "launcher.luau"
+prefix = "pass"
+glyph  = "lock"
+include_in_global_search = false

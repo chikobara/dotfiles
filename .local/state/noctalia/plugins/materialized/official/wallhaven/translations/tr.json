@@ -1,0 +1,58 @@
+{
+  "applied": "Duvar kağıdı uygulandı",
+  "apply_failed": "Duvar kağıdı uygulama başarısız",
+  "applying": "İndiriliyor…",
+  "category_anime": "Anime",
+  "category_general": "Genel",
+  "category_people": "İnsanlar",
+  "clear_resolution": "Temizle",
+  "download_failed": "İndirme başarısız",
+  "empty": "Duvar kağıdı bulunamadı.",
+  "error": "İstek başarısız",
+  "filter_aspect_ratio": "Görüntü oranı",
+  "filter_categories": "Kategoriler",
+  "filter_purity": "Dasflık",
+  "filter_resolution": "Çözünürlük",
+  "filter_sort": "Sırala",
+  "loading": "Duvar kağıtları yükleniyor…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Sketchy",
+  "ratio_any": "Fark Etmez",
+  "ratio_portrait": "Dikey",
+  "ratio_wide": "Geniş",
+  "resolution_height_placeholder": "Yükseklik",
+  "resolution_mode_atleast": "En az",
+  "resolution_mode_exact": "Kesin",
+  "resolution_mode_label": "Mod",
+  "resolution_width_placeholder": "Genişlik",
+  "search": "Ara",
+  "search_placeholder": "Arayın (örn. atatürk, şehir ışıkları)",
+  "settings": {
+    "api_key": {
+      "description": "NSFW erişimi ve daha çok arama isteği için isteğe bağlı Wallhaven API anahtarı.",
+      "label": "API anahtarı"
+    },
+    "download_dir": {
+      "description": "Tam çözünürlüklü indirmeler için isteğe bağlı geçersiz kılma. Boş işe varsayılan noctalia duvar kağıdı dizinini kullanır.",
+      "label": "İndirme klasörü"
+    },
+    "glyph": {
+      "label": "Bar glifi"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Eklenme tarihi",
+      "favorites": "Favoriler",
+      "hot": "Yeni",
+      "random": "Rastgeçe",
+      "relevance": "Alakalı",
+      "toplist": "En iyiler",
+      "views": "Görüntülenme"
+    }
+  },
+  "sort_asc": "Artan",
+  "sort_desc": "Azalan",
+  "title": "Wallhaven"
+}

@@ -1,0 +1,43 @@
+{
+  "applied": "Háttérkép alkalmazva",
+  "apply_failed": "A háttérkép nem alkalmazható",
+  "applying": "Letöltés…",
+  "category_anime": "Anime",
+  "category_general": "Általános",
+  "category_people": "Emberek",
+  "download_failed": "A letöltés sikertelen",
+  "empty": "Nem található háttérkép.",
+  "error": "A kérés sikertelen",
+  "filter_categories": "Kategóriák",
+  "filter_purity": "Tartalom",
+  "filter_sort": "Rendezés",
+  "loading": "Háttérképek betöltése…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Határeset",
+  "search": "Keresés",
+  "search_placeholder": "Címkék keresése (pl. természet, éjszakai város)",
+  "settings": {
+    "api_key": {
+      "description": "Opcionális Wallhaven API-kulcs magasabb limitekhez és NSFW hozzáféréshez.",
+      "label": "API-kulcs"
+    },
+    "download_dir": {
+      "description": "Opcionális felülírás teljes felbontású letöltésekhez. Üres érték esetén a Noctalia háttérképmappa használatos.",
+      "label": "Letöltési mappa"
+    },
+    "glyph": {
+      "label": "Sáv glif"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Hozzáadás dátuma",
+      "favorites": "Kedvencek",
+      "random": "Véletlen",
+      "relevance": "Relevancia",
+      "views": "Megtekintések"
+    }
+  },
+  "title": "Wallhaven"
+}

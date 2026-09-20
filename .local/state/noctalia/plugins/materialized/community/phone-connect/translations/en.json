@@ -1,0 +1,149 @@
+{
+  "action": {
+    "accept": "Accept",
+    "browse": "Browse",
+    "clipboard": "Clipboard",
+    "pair": "Pair",
+    "ping": "Ping",
+    "refresh": "Refresh",
+    "reject": "Reject",
+    "ring": "Ring",
+    "share": "Share",
+    "sms": "SMS",
+    "switch": "Switch device",
+    "unpair": "Unpair"
+  },
+  "error": {
+    "accept_failed": "Failed to accept pairing",
+    "browse_failed": "Failed to browse device",
+    "cli_failed": "Command failed",
+    "clipboard_failed": "Failed to send clipboard",
+    "no_backend": "No backend",
+    "pairing_failed": "Pairing failed",
+    "pick_failed": "Failed to open file picker",
+    "pick_in_progress": "A file picker is already open",
+    "ping_failed": "Failed to send ping",
+    "reject_failed": "Failed to reject pairing",
+    "ring_failed": "Failed to ring device",
+    "share_failed": "Failed to share",
+    "unpair_failed": "Unpair failed"
+  },
+  "media": {
+    "mute": "Mute",
+    "next": "Next",
+    "pause": "Pause",
+    "play": "Play",
+    "previous": "Previous",
+    "stop": "Stop",
+    "unmute": "Unmute"
+  },
+  "notify": {
+    "clipboard_sent": "Clipboard sent",
+    "file_shared": "Sending file to device...",
+    "opening_browser": "Opening file browser...",
+    "paired": "Device paired",
+    "pairing_sent": "Pairing request sent",
+    "ping_sent": "Ping sent to {name}",
+    "ringing": "Ringing {name}...",
+    "sms_sent": "SMS sent",
+    "unpaired": "Device unpaired"
+  },
+  "panel": {
+    "battery": "Battery",
+    "close": "Close",
+    "devices_connected": "{connected} connected",
+    "empty": "No devices found. Pair a device in KDE Connect.",
+    "image_path": "Custom Image",
+    "network": "Network",
+    "no_media": "No media playing",
+    "no_recent_images": "No recent images found",
+    "now_playing": "Now Playing",
+    "paired": "Paired",
+    "pairing": "Pairing",
+    "recent_images": "Recent Images",
+    "sms": "Send SMS",
+    "sms_dest": "Phone number",
+    "sms_msg": "Message",
+    "sms_send": "Send",
+    "title": "Phone Connect",
+    "type": "Type",
+    "unknown": "unknown",
+    "unpaired": "Unpaired"
+  },
+  "settings": {
+    "battery_display": {
+      "description": "Choose whether the bar widget shows the battery icon, percentage, both, or neither.",
+      "hidden": "Hidden",
+      "icon": "Icon only",
+      "icon_and_percent": "Icon and percentage",
+      "label": "Battery Display",
+      "percent": "Percentage only"
+    },
+    "custom_image": {
+      "description": "Set a custom image for the selected device. Leave empty for default icon.",
+      "label": "Device Image"
+    },
+    "device_alias": {
+      "description": "Custom display name for the selected device.",
+      "label": "Device Alias"
+    },
+    "enable_charging_animation": {
+      "description": "Highlight the bar widget when the device is charging.",
+      "label": "Show Charging Fill"
+    },
+    "enable_clipboard_action": {
+      "description": "Show a quick action to send the clipboard to the device.",
+      "label": "Show Clipboard Action"
+    },
+    "language": {
+      "description": "Display language",
+      "en": "English",
+      "label": "Language",
+      "zh-hans": "简体中文",
+      "zh_hans": "简体中文"
+    },
+    "max_recent_images": {
+      "description": "Number of recent images to display.",
+      "label": "Max Recent Images"
+    },
+    "migrated": {
+      "description": "Edit these directly in the panel: click the device's avatar to change its image, click its name to rename it. Per-device and saved automatically.",
+      "label": "Device image and name"
+    },
+    "panel_placement": {
+      "attached": "Attached to bar",
+      "description": "How the details panel opens: attached to the bar, or floating.",
+      "floating": "Floating (center)",
+      "label": "Panel Placement",
+      "widget": "Below widget (floating)"
+    },
+    "scan_subdirectories": {
+      "description": "Recursively scan subdirectories of the recent images path.",
+      "label": "Scan Subdirectories"
+    },
+    "show_device_name": {
+      "description": "Show the selected device's name or alias in the bar widget.",
+      "label": "Show Device Name"
+    },
+    "show_device_placeholder": {
+      "description": "Show the device graphic in the details panel.",
+      "label": "Show Device Placeholder"
+    },
+    "show_ongoing_media": {
+      "description": "Show media currently playing on the phone.",
+      "label": "Show Ongoing Media"
+    },
+    "state_update_interval": {
+      "description": "Seconds between automatic device state refreshes. 0 disables auto-refresh.",
+      "label": "State Update Interval"
+    }
+  },
+  "status": {
+    "connected": "Connected",
+    "no_backend": "KDE Connect not running",
+    "no_devices": "No devices",
+    "not_paired": "Not paired",
+    "offline": "Offline",
+    "unavailable": "Unavailable"
+  }
+}

@@ -1,0 +1,55 @@
+id = "tordex/nvtop"
+name = "NVTOP"
+version = "2.1.0"
+plugin_api = 24
+author = "tordex"
+license = "MIT"
+dependencies = ["nvtop", "jq", "pkill", "kill"]
+tags = ["panel", "system"]
+icon = "cpu"
+description = "Monitor real-time information about your GPU status and running processes with nvtop."
+
+[[setting]]
+key = "delay"
+type = "int"
+label_key = "settings.delay.label"
+description_key = "settings.delay.description"
+default = 5
+min = 1
+max = 20
+
+[[setting]]
+key = "sort_column_background"
+type = "color"
+label_key = "settings.sort_column_background.label"
+description_key = "settings.sort_column_background.description"
+default = "surface_variant"
+
+[[setting]]
+key = "sort_column_color"
+type = "color"
+label_key = "settings.sort_column_color.label"
+description_key = "settings.sort_column_color.description"
+default = "on_surface_variant"
+
+[[setting]]
+key = "process_hover_background"
+type = "color"
+label_key = "settings.process_hover_background.label"
+description_key = "settings.process_hover_background.description"
+default = "surface_variant"
+
+[[setting]]
+key = "process_hover_color"
+type = "color"
+label_key = "settings.process_hover_color.label"
+description_key = "settings.process_hover_color.description"
+default = "on_surface_variant"
+
+[[panel]]
+id = "panel"
+entry = "panel.luau"
+width = 750
+height = 600
+placement = "attached"
+open_near_click = true

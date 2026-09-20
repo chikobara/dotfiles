@@ -1,0 +1,115 @@
+{
+  "detail": {
+    "no-api-key": "The API key is missing. Set it manually or expose it via config.xml.",
+    "no-folders": "No monitored folders are configured.",
+    "no-url": "The GUI URL could not be resolved from settings or config.xml."
+  },
+  "device": {
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "paused": "Paused"
+  },
+  "launcher": {
+    "rescan-hint": "Enter: rescan {id}",
+    "rescan-started": "Rescan of {id} started."
+  },
+  "notify": {
+    "device-connected": "{name} connected.",
+    "device-disconnected": "{name} disconnected.",
+    "folder-done": "Folder “{label}” is up to date.",
+    "folder-error": "Folder “{label}” reported an error."
+  },
+  "panel": {
+    "device-pause": "Pause device",
+    "device-resume": "Resume device",
+    "devices": "Devices",
+    "folder-pause": "Pause folder",
+    "folder-rescan": "Rescan folder",
+    "folder-resume": "Resume folder",
+    "folder-state": "{state} — {count} items",
+    "folders": "Folders",
+    "last-activity": "Last activity: {value}",
+    "last-check-info": "Last check: {value}",
+    "no-devices": "No devices.",
+    "no-folders": "No monitored folders.",
+    "open-gui": "Open web GUI",
+    "pause-all": "Pause all devices",
+    "pending": "Pending",
+    "refresh": "Refresh",
+    "resume-all": "Resume all devices",
+    "tab-devices": "Devices",
+    "tab-folders": "Folders",
+    "title": "Syncthing"
+  },
+  "settings": {
+    "api_key": {
+      "description": "Syncthing REST API key. Leave empty to autodetect from config.xml.",
+      "label": "API key"
+    },
+    "config_path": {
+      "description": "Explicit path to Syncthing's config.xml for autodetection.",
+      "label": "config.xml path"
+    },
+    "folders": {
+      "description": "Folder IDs to monitor. Leave empty to monitor all folders.",
+      "label": "Monitored folder IDs"
+    },
+    "insecure_tls": {
+      "description": "Accept self-signed certificates on HTTPS GUI URLs.",
+      "label": "Skip TLS verification"
+    },
+    "notify_events": {
+      "description": "Notify when a folder finishes syncing, goes into error, or a device connects/disconnects.",
+      "label": "Event notifications"
+    },
+    "poll_interval": {
+      "description": "How often the Syncthing status is refreshed.",
+      "label": "Poll interval (seconds)"
+    },
+    "show_pending": {
+      "description": "Show the number of pending items next to the icon while syncing.",
+      "label": "Show pending count"
+    },
+    "url": {
+      "description": "Syncthing GUI base URL. Leave empty to autodetect from config.xml.",
+      "label": "GUI URL"
+    }
+  },
+  "shortcut": {
+    "label": "Syncthing"
+  },
+  "state": {
+    "disabled": "Disabled",
+    "disconnected": "No devices connected",
+    "error": "Error",
+    "idle": "Up to date",
+    "offline": "Syncthing unreachable",
+    "paused": "Paused",
+    "syncing": "Syncing",
+    "unauthorized": "API key rejected",
+    "unconfigured": "Not configured"
+  },
+  "summary": {
+    "disconnected": "No remote devices are connected.",
+    "error": "One or more folders reported errors.",
+    "idle-devices": "Up to date — {connected}/{configured} devices connected.",
+    "idle-no-devices": "Up to date. No remote devices configured.",
+    "offline": "The Syncthing GUI cannot be reached.",
+    "paused": "All monitored folders are paused.",
+    "syncing-folders": "Syncing {count} folders.",
+    "syncing-items": "Syncing, {count} items pending.",
+    "unauthorized": "Syncthing rejected the API key.",
+    "unconfigured": "Connection is not configured."
+  },
+  "toast": {
+    "title": "Syncthing"
+  },
+  "tooltip": {
+    "checked": "Last check",
+    "devices": "Devices",
+    "folders": "Folders",
+    "pending": "Pending",
+    "rates": "Transfer",
+    "state": "State"
+  }
+}

@@ -1,0 +1,37 @@
+# Palette Creator — inspired by WerWolv's "Color Scheme Creator" for v4
+# (github.com/WerWolv/noctalia-plugins/tree/main/color-scheme-creator).
+# Separate, unaffiliated project, not made or endorsed by WerWolv — v4 and
+# v5 plugins aren't compatible, so this is a from-scratch v5 port. See
+# README.md's Accreditation section.
+# Visual editor for the 16 MD3 color roles (dark + light), auto-generates
+# terminal ANSI colors, and saves straight into ~/.config/noctalia/palettes/.
+
+id = "decksters-lab/palette-creator"
+name = "Palette Creator"
+version = "1.0.0"
+plugin_api = 9
+author = "decksters-lab"
+license = "MIT"
+dependencies = ["hyprpicker"]
+tags = ["theming", "utility"]
+icon = "palette"
+description = "Build a theme by picking each color yourself, even straight off your screen."
+
+# Bar widget: click the palette glyph to open the editor panel.
+[[widget]]
+id = "toggle"
+entry = "widget.luau"
+
+# Control Center shortcut: same toggle, added from Settings -> Control Center shortcuts.
+[[shortcut]]
+id = "cc_toggle"
+entry = "shortcut.luau"
+
+# The editor itself.
+[[panel]]
+id = "creator"
+entry = "panel.luau"
+width = 560
+height = 620
+placement = "floating"
+position = "center"

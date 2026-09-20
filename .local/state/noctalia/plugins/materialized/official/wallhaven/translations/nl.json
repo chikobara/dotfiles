@@ -1,0 +1,43 @@
+{
+  "applied": "Achtergrond toegepast",
+  "apply_failed": "Achtergrond kon niet worden toegepast",
+  "applying": "Downloaden…",
+  "category_anime": "Anime",
+  "category_general": "Algemeen",
+  "category_people": "Mensen",
+  "download_failed": "Download mislukt",
+  "empty": "Geen achtergronden gevonden.",
+  "error": "Verzoek mislukt",
+  "filter_categories": "Categorieën",
+  "filter_purity": "Inhoud",
+  "filter_sort": "Sorteren",
+  "loading": "Achtergronden laden…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Grensgeval",
+  "search": "Zoeken",
+  "search_placeholder": "Tags zoeken (bijv. natuur, stad bij nacht)",
+  "settings": {
+    "api_key": {
+      "description": "Optionele Wallhaven API-sleutel voor hogere limieten en NSFW-toegang.",
+      "label": "API-sleutel"
+    },
+    "download_dir": {
+      "description": "Optionele overschrijving voor downloads op volledige resolutie. Leeg gebruikt de Noctalia-achtergrondmap.",
+      "label": "Downloadmap"
+    },
+    "glyph": {
+      "label": "Balkglyph"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Datum toegevoegd",
+      "favorites": "Favorieten",
+      "random": "Willekeurig",
+      "relevance": "Relevantie",
+      "views": "Weergaven"
+    }
+  },
+  "title": "Wallhaven"
+}

@@ -1,0 +1,43 @@
+{
+  "applied": "Tapeta použita",
+  "apply_failed": "Tapetu se nepodařilo použít",
+  "applying": "Stahování…",
+  "category_anime": "Anime",
+  "category_general": "Obecné",
+  "category_people": "Lidé",
+  "download_failed": "Stažení selhalo",
+  "empty": "Nebyly nalezeny žádné tapety.",
+  "error": "Požadavek selhal",
+  "filter_categories": "Kategorie",
+  "filter_purity": "Obsah",
+  "filter_sort": "Řazení",
+  "loading": "Načítání tapet…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Hraniční",
+  "search": "Hledat",
+  "search_placeholder": "Hledat tagy (např. příroda, noční město)",
+  "settings": {
+    "api_key": {
+      "description": "Volitelný API klíč Wallhaven pro vyšší limity a přístup k NSFW.",
+      "label": "API klíč"
+    },
+    "download_dir": {
+      "description": "Volitelné přepsání pro stahování v plném rozlišení. Prázdné použije složku tapet Noctalia.",
+      "label": "Složka pro stahování"
+    },
+    "glyph": {
+      "label": "Glyph panelu"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Datum přidání",
+      "favorites": "Oblíbené",
+      "random": "Náhodně",
+      "relevance": "Relevance",
+      "views": "Zobrazení"
+    }
+  },
+  "title": "Wallhaven"
+}

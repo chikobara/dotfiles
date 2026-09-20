@@ -1,0 +1,58 @@
+{
+  "applied": "Hintergrundbild angewendet",
+  "apply_failed": "Hintergrundbild konnte nicht angewendet werden",
+  "applying": "Wird heruntergeladen…",
+  "category_anime": "Anime",
+  "category_general": "Allgemein",
+  "category_people": "Menschen",
+  "clear_resolution": "Löschen",
+  "download_failed": "Download fehlgeschlagen",
+  "empty": "Keine Hintergrundbilder gefunden.",
+  "error": "Anfrage fehlgeschlagen",
+  "filter_aspect_ratio": "Seitenverhältnis",
+  "filter_categories": "Kategorien",
+  "filter_purity": "Inhalt",
+  "filter_resolution": "Auflösung",
+  "filter_sort": "Sortierung",
+  "loading": "Hintergrundbilder werden geladen…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Grenzwertig",
+  "ratio_any": "Beliebig",
+  "ratio_portrait": "Alle Hochformate",
+  "ratio_wide": "Alle Querformate",
+  "resolution_height_placeholder": "Höhe",
+  "resolution_mode_atleast": "Mindestens",
+  "resolution_mode_exact": "Exakt",
+  "resolution_mode_label": "Modus",
+  "resolution_width_placeholder": "Breite",
+  "search": "Suchen",
+  "search_placeholder": "Tags suchen (z. B. Natur, Stadt bei Nacht)",
+  "settings": {
+    "api_key": {
+      "description": "Optionaler Wallhaven-API-Schlüssel für höhere Limits und NSFW-Zugang",
+      "label": "API-Schlüssel"
+    },
+    "download_dir": {
+      "description": "Optionale Überschreibung für Downloads in voller Auflösung; leer verwendet deinen Noctalia-Hintergrundbildordner",
+      "label": "Download-Verzeichnis"
+    },
+    "glyph": {
+      "label": "Leistensymbol"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Hinzugefügt",
+      "favorites": "Favoriten",
+      "hot": "Beliebt",
+      "random": "Zufällig",
+      "relevance": "Relevanz",
+      "toplist": "Topliste",
+      "views": "Aufrufe"
+    }
+  },
+  "sort_asc": "Aufsteigend",
+  "sort_desc": "Absteigend",
+  "title": "Wallhaven"
+}

@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "notify_on_copy": {
+      "description": "Kamoji가 클립보드에 복사되었을 때 알림 표시",
+      "label": "복사 시 알림"
+    }
+  },
+  "title": "Kamoji"
+}

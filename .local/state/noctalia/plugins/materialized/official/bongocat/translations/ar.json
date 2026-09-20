@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "audio_spectrum": {
+      "label": "التفاعل مع الصوت"
+    },
+    "executable_path": {
+      "label": "ملف evtest الثنائي البديل"
+    },
+    "input_devices": {
+      "description": "يُفضّل استخدام ‎/dev/input/by-id/*-event-*‎ أو ‎/dev/input/by-path/*-event-*‎؛ إذ قد يتغيّر ‎/dev/input/eventN‎ بعد تحديثات النواة أو الجهاز.\n",
+      "label": "أجهزة الإدخال"
+    },
+    "rave_mode": {
+      "label": "ألوان الحفلة مع الإيقاع"
+    },
+    "tappy_mode": {
+      "label": "انقر على الإيقاع"
+    },
+    "use_mpris_filter": {
+      "label": "لا تستجيب إلا أثناء تشغيل الوسائط"
+    }
+  }
+}

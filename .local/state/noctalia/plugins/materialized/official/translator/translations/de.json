@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "target_lang": {
+      "description": "Sprachcode, der verwendet wird, wenn keine Sprache angegeben ist (z. B. en, fr, es)",
+      "label": "Standard-Zielsprache"
+    }
+  }
+}

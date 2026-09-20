@@ -1,0 +1,252 @@
+config_version = 14
+
+[bar.main]
+background_opacity = 0.59999998658895493
+center = [ "cat", "media" ]
+end = [
+    "tray",
+    "bar_2",
+    "bar_3",
+    "cat_2",
+    "toggle",
+    "nightlight",
+    "caffeine",
+    "clipboard",
+    "widget",
+    "keyboard_layout",
+    "bar",
+    "network",
+    "bluetooth",
+    "input_volume",
+    "volume",
+    "brightness",
+    "battery",
+    "notifications",
+    "clock",
+    "session"
+]
+margin_ends = 35
+padding = 21
+start = [
+    "control-center",
+    "launcher",
+    "workspaces",
+    "wallpaper",
+    "wallhaven",
+    "temp",
+    "asus_fan",
+    "network_tx",
+    "network_rx",
+    "eyecare-widget"
+]
+
+[control_center]
+hidden_tabs = [ "weather" ]
+width = 830
+
+[hot_corners]
+enabled = true
+
+    [hot_corners.top_left]
+    action = "window_switcher"
+
+[lockscreen]
+enabled = true
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@HDMI-A-2", "lockscreen-login-box@eDP-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-2"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 960.0
+    cy = 898.0
+    output = "HDMI-A-2"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-2".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@eDP-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 960.0
+    cy = 898.0
+    output = "eDP-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@eDP-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[plugin_settings."noctalia/translator"]
+target_lang = "ar"
+
+[plugin_settings."noctalia/wallhaven"]
+download_dir = "/home/chiko/Pictures"
+
+[plugins]
+enabled = [
+    "noctalia/bongocat",
+    "noctalia/kaomoji",
+    "noctalia/translator",
+    "noctalia/wallhaven",
+    "apex077/eyecare",
+    "h-jangra/keyviz",
+    "prponkshe/mango-displays",
+    "ezequiel/mango_layouts",
+    "tordex/nvtop",
+    "decksters-lab/palette-creator",
+    "icefish/phone-connect",
+    "lucasoe/proton-pass",
+    "rylos/syncthing",
+    "kv7499/asus-fan",
+    "dotnetrob/cat"
+]
+
+[shell]
+password_style = "random"
+settings_window_translucent = true
+
+    [shell.panel]
+    open_near_click_control_center = true
+    transparency_mode = "soft"
+
+    [shell.screen_corners]
+    enabled = true
+
+    [shell.window_switcher]
+    mru = true
+
+[theme]
+builtin = "Rosé Pine"
+community_palette = "Rosey AMOLED"
+mode = "dark"
+shell_mode = "dark"
+source = "builtin"
+wallpaper_scheme = "dysfunctional"
+
+[wallpaper]
+directory = "/home/chiko/Pictures"
+
+    [wallpaper.default]
+    path = "/home/chiko/Pictures/randoms/DopqTgT.png"
+
+    [wallpaper.last]
+    path = "/home/chiko/Pictures/randoms/DopqTgT.png"
+
+    [wallpaper.monitors.HDMI-A-2]
+    path = "/home/chiko/Pictures/randoms/DopqTgT.png"
+
+    [wallpaper.monitors.eDP-1]
+    path = "/home/chiko/Pictures/randoms/DopqTgT.png"
+
+[widget.asus_fan]
+type = "kv7499/asus-fan:asus_fan"
+
+[widget.bar]
+type = "prponkshe/mango-displays:bar"
+
+[widget.bar_2]
+type = "icefish/phone-connect:bar"
+
+[widget.bar_3]
+type = "rylos/syncthing:bar"
+
+[widget.battery]
+show_label = false
+
+[widget.brightness]
+show_label = false
+
+[widget.caffeine]
+scale = 1.1000000000000001
+
+[widget.cat]
+scale = 1.6500000000000001
+type = "noctalia/bongocat:cat"
+
+[widget.cat_2]
+cat_color = "primary"
+cat_color_mode = "custom"
+cat_size = 33
+type = "dotnetrob/cat:cat"
+
+[widget.control-center]
+glyph = "pacman"
+scale = 1.3
+
+[widget.eyecare-widget]
+color = "primary"
+icon_color = "primary"
+type = "apex077/eyecare:eyecare-widget"
+
+[widget.input_volume]
+enabled = false
+
+[widget.keyboard_layout]
+show_glyph = false
+
+[widget.network]
+show_label = false
+
+[widget.network_rx]
+network_speed_compact = true
+visualization = "none"
+
+[widget.network_tx]
+network_speed_compact = true
+visualization = "none"
+
+[widget.toggle]
+type = "decksters-lab/palette-creator:toggle"
+
+[widget.volume]
+show_label = false
+
+[widget.wallhaven]
+type = "noctalia/wallhaven:wallhaven"
+
+[widget.widget]
+type = "h-jangra/keyviz:widget"
+
+[widget.workspaces]
+labels_only_when_occupied = true

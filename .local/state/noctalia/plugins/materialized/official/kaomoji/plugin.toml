@@ -1,0 +1,123 @@
+id = "noctalia/kaomoji"
+name = "Kaomoji"
+version = "1.0.1"
+plugin_api = 3
+author = "noctalia"
+license = "MIT"
+dependencies = []
+tags = ["emoticon", "launcher"]
+icon = "mood-smile"
+description = "Browse and search kaomoji emoticons from the launcher and copy them to the clipboard."
+
+[[setting]]
+key = "notify_on_copy"
+type = "bool"
+label_key = "settings.notify_on_copy.label"
+description_key = "settings.notify_on_copy.description"
+default = true
+
+
+[[launcher_provider]]
+id = "kaomoji"
+entry = "kaomoji.luau"
+prefix = "kao"
+glyph = "mood-smile"
+include_in_global_search = false
+
+  # Category filter bar. Each label must match the `category` field the script
+  # sets on its result rows (see kaomoji.luau / database.json).
+  [[launcher_provider.category]]
+  label = "Happy"
+  glyph = "mood-smile"
+
+  [[launcher_provider.category]]
+  label = "Love"
+  glyph = "heart"
+
+  [[launcher_provider.category]]
+  label = "Blush"
+  glyph = "mood-heart"
+
+  [[launcher_provider.category]]
+  label = "Kiss"
+  glyph = "mood-tongue"
+
+  [[launcher_provider.category]]
+  label = "Wink"
+  glyph = "mood-wink"
+
+  [[launcher_provider.category]]
+  label = "Excited"
+  glyph = "mood-crazy-happy"
+
+  [[launcher_provider.category]]
+  label = "Hug"
+  glyph = "friends"
+
+  [[launcher_provider.category]]
+  label = "Sad"
+  glyph = "mood-sad"
+
+  [[launcher_provider.category]]
+  label = "Crying"
+  glyph = "mood-cry"
+
+  [[launcher_provider.category]]
+  label = "Angry"
+  glyph = "mood-angry"
+
+  [[launcher_provider.category]]
+  label = "Annoyed"
+  glyph = "mood-annoyed"
+
+  [[launcher_provider.category]]
+  label = "Surprised"
+  glyph = "mood-surprised"
+
+  [[launcher_provider.category]]
+  label = "Shrug"
+  glyph = "mood-empty"
+
+  [[launcher_provider.category]]
+  label = "Lenny"
+  glyph = "sunglasses"
+
+  [[launcher_provider.category]]
+  label = "Flex"
+  glyph = "barbell"
+
+  [[launcher_provider.category]]
+  label = "Table flip"
+  glyph = "table"
+
+  [[launcher_provider.category]]
+  label = "Thumbs up"
+  glyph = "thumb-up"
+
+  [[launcher_provider.category]]
+  label = "Music"
+  glyph = "music"
+
+  [[launcher_provider.category]]
+  label = "Sparkles"
+  glyph = "sparkles"
+
+  [[launcher_provider.category]]
+  label = "Flower"
+  glyph = "flower"
+
+  [[launcher_provider.category]]
+  label = "Cat"
+  glyph = "cat"
+
+  [[launcher_provider.category]]
+  label = "Dog"
+  glyph = "dog"
+
+  [[launcher_provider.category]]
+  label = "Bear"
+  glyph = "paw"
+
+  [[launcher_provider.category]]
+  label = "Sleepy"
+  glyph = "moon"

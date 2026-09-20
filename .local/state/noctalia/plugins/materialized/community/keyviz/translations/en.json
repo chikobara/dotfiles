@@ -1,0 +1,55 @@
+{
+  "notify_paused": "Keystroke visualizer paused",
+  "notify_resumed": "Keystroke visualizer active",
+  "settings": {
+    "badge_style": {
+      "description": "Appearance and background style of on-screen keycaps",
+      "label": "Visual style",
+      "options": {
+        "accent": "Accent Outline",
+        "glass": "Glass (Blurred)",
+        "keycap_dark": "Keycap (Dark)",
+        "keycap_light": "Keycap (Light)",
+        "solid": "Solid Surface"
+      }
+    },
+    "enabled_by_default": {
+      "description": "Start keystroke visualizer automatically when Noctalia starts",
+      "label": "Enabled by default"
+    },
+    "font_size": {
+      "description": "Text size of displayed keycaps",
+      "label": "Key font size",
+      "options": {
+        "large": "Large (20px)",
+        "medium": "Medium (16px)",
+        "small": "Small (13px)"
+      }
+    },
+    "margin": {
+      "description": "Spacing gap between visualized key combinations (in pixels)",
+      "label": "Keycap spacing"
+    },
+    "max_keys": {
+      "description": "Maximum number of recent key combinations to display simultaneously",
+      "label": "Maximum key combos"
+    },
+    "padding": {
+      "description": "Internal padding spacing inside the overlay around keycaps (in pixels)",
+      "label": "Overlay padding"
+    },
+    "show_modifiers_only": {
+      "description": "Only visualize key combinations containing Ctrl, Alt, Shift, or Super",
+      "label": "Shortcuts only"
+    },
+    "timeout_ms": {
+      "description": "How long keys remain visible on screen after release (in milliseconds)",
+      "label": "Key timeout (ms)"
+    }
+  },
+  "shortcut_active": "Keyviz On",
+  "shortcut_paused": "Keyviz Off",
+  "title": "Key Visualizer",
+  "tooltip_active": "Key Visualizer: Active",
+  "tooltip_paused": "Key Visualizer: Paused"
+}

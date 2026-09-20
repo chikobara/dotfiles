@@ -1,0 +1,87 @@
+id           = "dotnetrob/cat"
+name         = "Cat"
+version      = "1.2.0"
+plugin_api   = 3
+author       = "DotNetRob"
+license      = "MIT"
+dependencies = []
+icon         = "paw"
+description  = "An animated running cat bar widget whose speed reflects CPU usage."
+tags         = ["bar", "animation", "system", "fun"]
+
+# Popup opened by clicking the bar widget: the same cat, bigger, with the
+# CPU percentage. Attached to the bar near the click; the host default
+# dismiss-on-outside-click makes it behave like a transient popup.
+[[panel]]
+id              = "panel"
+entry           = "cat_panel.luau"
+width           = 280
+height          = 240
+placement       = "attached"
+open_near_click = true
+
+[[widget]]
+id    = "cat"
+entry = "cat.luau"
+
+  [[widget.setting]]
+  key              = "cat_size"
+  type             = "int"
+  label_key        = "settings.cat_size.label"
+  description_key  = "settings.cat_size.description"
+  default          = 24
+  min              = 12
+  max              = 48
+
+  [[widget.setting]]
+  key              = "show_cpu_percent"
+  type             = "bool"
+  label_key        = "settings.show_cpu_percent.label"
+  description_key  = "settings.show_cpu_percent.description"
+  default          = false
+
+  [[widget.setting]]
+  key              = "walk_threshold"
+  type             = "int"
+  label_key        = "settings.walk_threshold.label"
+  description_key  = "settings.walk_threshold.description"
+  default          = 15
+  min              = 0
+  max              = 100
+
+  [[widget.setting]]
+  key              = "run_threshold"
+  type             = "int"
+  label_key        = "settings.run_threshold.label"
+  description_key  = "settings.run_threshold.description"
+  default          = 60
+  min              = 0
+  max              = 100
+
+  [[widget.setting]]
+  key              = "poll_interval"
+  type             = "int"
+  label_key        = "settings.poll_interval.label"
+  description_key  = "settings.poll_interval.description"
+  default          = 2
+  min              = 1
+  max              = 10
+
+  [[widget.setting]]
+  key              = "cat_color_mode"
+  type             = "select"
+  label_key        = "settings.cat_color_mode.label"
+  description_key  = "settings.cat_color_mode.description"
+  default          = "theme"
+  options          = [
+    { value = "theme", label_key = "settings.cat_color_mode.option_theme" },
+    { value = "custom", label_key = "settings.cat_color_mode.option_custom" },
+  ]
+
+  [[widget.setting]]
+  key              = "cat_color"
+  type             = "color"
+  label_key        = "settings.cat_color.label"
+  description_key  = "settings.cat_color.description"
+  default          = "#E8A24C"
+  visible_when     = { key = "cat_color_mode", values = ["custom"] }

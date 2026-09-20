@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "notify_on_copy": {
+      "description": "将颜文字复制到剪贴板时显示通知",
+      "label": "复制时通知"
+    }
+  },
+  "title": "颜文字"
+}

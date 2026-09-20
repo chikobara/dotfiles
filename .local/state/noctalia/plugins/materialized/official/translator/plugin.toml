@@ -1,0 +1,48 @@
+id = "noctalia/translator"
+name = "Translator"
+version = "1.0.8"
+plugin_api = 3
+author = "noctalia"
+license = "MIT"
+dependencies = []
+tags = ["language", "launcher"]
+icon = "language"
+description = "Translate text from the launcher via Google Translate or DeepL."
+
+
+[[launcher_provider]]
+id = "translate"
+entry = "translator.luau"
+prefix = "tr"
+glyph = "language"
+include_in_global_search = false
+debounce_ms = 300  # wait for typing to settle before calling the provider
+
+
+[[setting]]
+key = "target_lang"
+type = "string"
+label_key = "settings.target_lang.label"
+description_key = "settings.target_lang.description"
+default = "en"
+
+
+[[setting]]
+key = "provider"
+type = "select"
+label_key = "settings.provider.label"
+description_key = "settings.provider.description"
+default = "google"
+options = [
+  { value = "google", label_key = "settings.provider.options.google" },
+  { value = "deepl", label_key = "settings.provider.options.deepl" },
+]
+
+
+[[setting]]
+key = "deepl_api_key"
+type = "string"
+label_key = "settings.deepl_api_key.label"
+description_key = "settings.deepl_api_key.description"
+default = ""
+visible_when = { key = "provider", values = ["deepl"] }

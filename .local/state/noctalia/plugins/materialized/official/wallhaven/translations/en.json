@@ -1,0 +1,59 @@
+{
+  "applied": "Wallpaper applied",
+  "apply_failed": "Failed to apply wallpaper",
+  "applying": "Downloading…",
+  "category_anime": "Anime",
+  "category_general": "General",
+  "category_people": "People",
+  "clear_resolution": "Clear",
+  "download_failed": "Download failed",
+  "empty": "No wallpapers found.",
+  "error": "Request failed",
+  "filter_aspect_ratio": "Aspect Ratio",
+  "filter_categories": "Categories",
+  "filter_purity": "Purity",
+  "filter_resolution": "Resolution",
+  "filter_sort": "Sort",
+  "loading": "Loading wallpapers…",
+  "page_jump_tooltip": "Jump to page",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Sketchy",
+  "ratio_any": "Any",
+  "ratio_portrait": "All Portrait",
+  "ratio_wide": "All Wide",
+  "resolution_height_placeholder": "Height",
+  "resolution_mode_atleast": "At Least",
+  "resolution_mode_exact": "Exact",
+  "resolution_mode_label": "Mode",
+  "resolution_width_placeholder": "Width",
+  "search": "Search",
+  "search_placeholder": "Search tags (e.g. nature, city night)",
+  "settings": {
+    "api_key": {
+      "description": "Optional Wallhaven API key for higher rate limits and NSFW access",
+      "label": "API Key"
+    },
+    "download_dir": {
+      "description": "Optional override for full-resolution downloads; empty uses your Noctalia wallpaper folder",
+      "label": "Download Directory"
+    },
+    "glyph": {
+      "label": "Bar Glyph"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Date Added",
+      "favorites": "Favorites",
+      "hot": "Hot",
+      "random": "Random",
+      "relevance": "Relevance",
+      "toplist": "Toplist",
+      "views": "Views"
+    }
+  },
+  "sort_asc": "Ascending",
+  "sort_desc": "Descending",
+  "title": "Wallhaven"
+}

@@ -1,0 +1,159 @@
+# Noctalia v5 plugin manifest for Phone Connect (KDE Connect backend only)
+# Plugin system is beta; APIs may change before v5 stable.
+#
+# plugin_api = 16: targets the last released level of v5.0.0. We avoid 17/18
+# (Unreleased) so the plugin loads on stable v5.0.0. None of our code relies on
+# 17+ features: onExit is unused, onConfigChanged is a baseline service hook.
+#
+# Status: KDE Connect only. Valent backend is intentionally out of scope for
+# now, but the service entry (service.luau) is written as a swappable backend
+# owner that publishes state to UI entries, so Valent can replace its internals
+# later without UI changes.
+
+id = "icefish/phone-connect"
+name = "Phone Connect"
+version = "0.2.0"
+plugin_api = 16
+author = "icefish"
+license = "MIT"
+deprecated = false
+icon = "devices"
+description = "Control paired phones via KDE Connect — battery, ring, ping, share, clipboard, pairing."
+tags = ["bar", "panel", "service", "media"]
+dependencies = ["kdeconnect", "sshfs"]
+
+# ── Plugin-level settings (shared across all entries) ───────────────────────
+# Mirrors the persisted keys of the original DankKDEConnect plugin where they
+# make sense as typed settings. Per-device maps (image/type/recent-images-path)
+# stay in pluginDataDir() JSON because they are dynamic, not declarative.
+
+[[setting]]
+key = "state_update_interval"
+type = "int"
+label_key = "settings.state_update_interval.label"
+description_key = "settings.state_update_interval.description"
+default = 30
+min = 0
+max = 300
+
+[[setting]]
+key = "enable_charging_animation"
+type = "bool"
+label_key = "settings.enable_charging_animation.label"
+description_key = "settings.enable_charging_animation.description"
+default = true
+
+[[setting]]
+key = "show_device_name"
+type = "bool"
+label_key = "settings.show_device_name.label"
+description_key = "settings.show_device_name.description"
+default = false
+
+[[setting]]
+key = "battery_display"
+type = "select"
+label_key = "settings.battery_display.label"
+description_key = "settings.battery_display.description"
+default = "icon_and_percent"
+options = [
+  { value = "icon_and_percent", label_key = "settings.battery_display.icon_and_percent" },
+  { value = "percent", label_key = "settings.battery_display.percent" },
+  { value = "icon", label_key = "settings.battery_display.icon" },
+  { value = "hidden", label_key = "settings.battery_display.hidden" },
+]
+
+# 头像 (custom_image) 和设备名 (device_alias) 已在面板中直接内联编辑
+# （点击设备卡上的名字/头像），此处仅保留一条说明，不再提供独立设置项。
+[[setting]]
+key = "migrated_notice"
+type = "string"
+label_key = "settings.migrated.label"
+description_key = "settings.migrated.description"
+default = ""
+
+[[setting]]
+key = "language"
+type = "select"
+label_key = "settings.language.label"
+description_key = "settings.language.description"
+default = "en"
+options = [
+  { value = "en", label_key = "settings.language.en" },
+  { value = "zh-Hans", label_key = "settings.language.zh-hans" },
+]
+
+[[setting]]
+key = "enable_clipboard_action"
+type = "bool"
+label_key = "settings.enable_clipboard_action.label"
+description_key = "settings.enable_clipboard_action.description"
+default = true
+
+[[setting]]
+key = "panel_placement"
+type = "select"
+label_key = "settings.panel_placement.label"
+description_key = "settings.panel_placement.description"
+default = "attached"
+options = [
+  { value = "attached", label_key = "settings.panel_placement.attached" },
+  { value = "floating", label_key = "settings.panel_placement.floating" },
+  { value = "widget", label_key = "settings.panel_placement.widget" },
+]
+
+# ── Entries ─────────────────────────────────────────────────────────────────
+# Four entries: a background service that talks DBus, a bar widget, a control
+# center tile, and a panel for the detailed device view.
+
+[[service]]
+id = "kde"
+entry = "service.luau"
+
+[[widget]]
+id = "bar"
+entry = "widget.luau"
+
+# Right-click opens settings via onRightClick in the script
+# (noctalia.openSettings). Left-click toggles the details panel. We deliberately
+# do not bind [widget.actions] here: the panel-toggle action grammar for opening
+# a *plugin* panel by id is not documented, so we drive it from the script instead.
+
+[[shortcut]]
+id = "tile"
+entry = "tile.luau"
+
+[[panel]]
+id = "details"
+entry = "panel.luau"
+width = 520
+height = 600
+placement = "attached"
+position = "auto"
+open_near_click = true
+keyboard_focus = "on_demand"
+
+# Floating variant: same script, opens detached (screen center). The widget/tile
+# pick which panel id to toggle based on the "panel_placement" setting, so users
+# choose attached vs floating without a runtime setPlacement API.
+[[panel]]
+id = "details_floating"
+entry = "panel.luau"
+width = 520
+height = 600
+placement = "floating"
+position = "center"
+keyboard_focus = "on_demand"
+
+# Floating-near-widget variant: floating surface that opens near the toggling
+# bar widget (open_near_click), i.e. suspended just below the widget rather than
+# anchored to the bar edge (attached) or screen-centered (floating).
+[[panel]]
+id = "details_widget"
+entry = "panel.luau"
+width = 520
+height = 600
+placement = "floating"
+position = "auto"
+open_near_click = true
+keyboard_focus = "on_demand"

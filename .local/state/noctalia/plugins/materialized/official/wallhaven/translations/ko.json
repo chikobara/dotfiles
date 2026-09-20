@@ -1,0 +1,57 @@
+{
+  "applied": "배경화면 적용됨 ",
+  "apply_failed": "배경화면 적용 실패",
+  "applying": "다운로드 중...",
+  "category_anime": "애니",
+  "category_general": "일반",
+  "category_people": "사람",
+  "clear_resolution": "지우기",
+  "download_failed": "다운로드 실패",
+  "empty": "배경화면을 찾을 수 없습니다.",
+  "error": "요청 실패",
+  "filter_aspect_ratio": "종황비",
+  "filter_purity": "순도",
+  "filter_resolution": "해상도",
+  "filter_sort": "정렬",
+  "loading": "배경화면을 불러오는 중...",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "스케치",
+  "ratio_any": "제한 없음",
+  "ratio_portrait": "모든 초상화",
+  "ratio_wide": "모든 비율",
+  "resolution_height_placeholder": "높이",
+  "resolution_mode_atleast": "최소",
+  "resolution_mode_exact": "일치",
+  "resolution_mode_label": "모드",
+  "resolution_width_placeholder": "너비",
+  "search": "검색",
+  "search_placeholder": "태그 검색 (예: nature, city night)",
+  "settings": {
+    "api_key": {
+      "description": "더 높은 요청 한도와 NSFW 접근을 위한 선택적 Wallheaven API 키",
+      "label": "API 키"
+    },
+    "download_dir": {
+      "description": "전체 해상도 다운로드를 위한 선택적 재정의. 비어 있으면 Noctalia 배경화면 폴더를 사용합니다.",
+      "label": "디렉토리 다운로드"
+    },
+    "glyph": {
+      "label": "바 글리프"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "날짜 추가됨",
+      "favorites": "즐겨찾기",
+      "hot": "급상승",
+      "random": "랜덤",
+      "relevance": "관련성",
+      "toplist": "인기순",
+      "views": "조회수"
+    }
+  },
+  "sort_asc": "오름차순 ",
+  "sort_desc": "내림차순",
+  "title": "Wallheaven"
+}

@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "target_lang": {
+      "description": "언어가 지정되지 않은 경우 사용할 언어 코드 (예: en, fr, es)",
+      "label": "기본 대상 언어"
+    }
+  }
+}

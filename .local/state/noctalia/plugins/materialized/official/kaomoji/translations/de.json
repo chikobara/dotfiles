@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "notify_on_copy": {
+      "description": "Zeig eine Benachrichtigung, wenn ein Kaomoji in die Zwischenablage kopiert wird",
+      "label": "Beim Kopieren benachrichtigen"
+    }
+  },
+  "title": "Kaomoji"
+}

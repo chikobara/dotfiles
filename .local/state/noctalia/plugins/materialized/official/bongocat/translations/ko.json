@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "audio_spectrum": {
+      "label": "오디오에 반응"
+    },
+    "executable_path": {
+      "label": "대체 evtest 바이너리"
+    },
+    "input_devices": {
+      "description": "/dev/input/by-id/*-event-* 또는 /dev/input/by-path/*-event-*; /dev/input/eventN는 커널 혹은 디바이스 업데이트에 의해 변경될 수 있습니다",
+      "label": "입력 기기"
+    },
+    "rave_mode": {
+      "label": "비트에 맞춰 색상 변화"
+    },
+    "tappy_mode": {
+      "label": "비트에 맞춰 탭"
+    },
+    "use_mpris_filter": {
+      "label": "미디어가 재생 중일 때만 반응"
+    }
+  }
+}

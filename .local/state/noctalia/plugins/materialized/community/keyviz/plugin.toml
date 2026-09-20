@@ -1,0 +1,112 @@
+id = "h-jangra/keyviz"
+name = "Key Visualizer"
+version = "0.1.0"
+plugin_api = 13
+author = "h-jangra"
+license = "MIT"
+dependencies = ["python3"]
+tags = ["utility", "bar", "service", "shortcut", "panel"]
+icon = "keyboard"
+description = "Real-time floating on-screen keystroke visualizer for Noctalia."
+
+[[setting]]
+key = "enabled_by_default"
+type = "bool"
+label_key = "settings.enabled_by_default.label"
+description_key = "settings.enabled_by_default.description"
+default = true
+
+[[setting]]
+key = "padding"
+type = "int"
+label_key = "settings.padding.label"
+description_key = "settings.padding.description"
+default = 6
+min = 0
+max = 30
+step = 1
+
+[[setting]]
+key = "margin"
+type = "int"
+label_key = "settings.margin.label"
+description_key = "settings.margin.description"
+default = 6
+min = 0
+max = 30
+step = 1
+
+[[setting]]
+key = "timeout_ms"
+type = "int"
+label_key = "settings.timeout_ms.label"
+description_key = "settings.timeout_ms.description"
+default = 500
+min = 200
+max = 5000
+step = 100
+
+[[setting]]
+key = "max_keys"
+type = "int"
+label_key = "settings.max_keys.label"
+description_key = "settings.max_keys.description"
+default = 4
+min = 1
+max = 8
+
+[[setting]]
+key = "font_size"
+type = "select"
+label_key = "settings.font_size.label"
+description_key = "settings.font_size.description"
+options = [
+  { value = "small", label_key = "settings.font_size.options.small" },
+  { value = "medium", label_key = "settings.font_size.options.medium" },
+  { value = "large", label_key = "settings.font_size.options.large" },
+]
+default = "medium"
+
+[[setting]]
+key = "badge_style"
+type = "select"
+label_key = "settings.badge_style.label"
+description_key = "settings.badge_style.description"
+options = [
+  { value = "glass", label_key = "settings.badge_style.options.glass" },
+  { value = "solid", label_key = "settings.badge_style.options.solid" },
+  { value = "accent", label_key = "settings.badge_style.options.accent" },
+  { value = "keycap_dark", label_key = "settings.badge_style.options.keycap_dark" },
+  { value = "keycap_light", label_key = "settings.badge_style.options.keycap_light" },
+]
+default = "glass"
+
+[[setting]]
+key = "show_modifiers_only"
+type = "bool"
+label_key = "settings.show_modifiers_only.label"
+description_key = "settings.show_modifiers_only.description"
+default = false
+
+[[service]]
+id = "keylistener"
+entry = "service.luau"
+
+[[panel]]
+id = "overlay"
+entry = "overlay.luau"
+width = 340
+height = 48
+placement = "floating"
+position = "bottom_center"
+persistent = true
+dismiss_on_outside_click = false
+keyboard_focus = "none"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[shortcut]]
+id = "toggle"
+entry = "shortcut.luau"

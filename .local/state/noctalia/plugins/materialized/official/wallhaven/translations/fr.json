@@ -1,0 +1,47 @@
+{
+  "applied": "Fond d'écran appliqué",
+  "apply_failed": "Impossible d'appliquer le fond d'écran",
+  "applying": "Téléchargement…",
+  "category_anime": "Anime",
+  "category_general": "Général",
+  "category_people": "Personnes",
+  "download_failed": "Échec du téléchargement",
+  "empty": "Aucun fond d'écran trouvé.",
+  "error": "Échec de la requête",
+  "filter_aspect_ratio": "Format d'image",
+  "filter_categories": "Catégories",
+  "filter_purity": "Contenu",
+  "filter_resolution": "Résolution",
+  "filter_sort": "Tri",
+  "loading": "Chargement des fonds d'écran…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Limite",
+  "search": "Rechercher",
+  "search_placeholder": "Rechercher des tags (ex. nature, ville de nuit)",
+  "settings": {
+    "api_key": {
+      "description": "Clé API Wallhaven facultative pour des limites d'accès plus élevées et l'accès au contenu NSFW.",
+      "label": "Clé API"
+    },
+    "download_dir": {
+      "description": "Remplacement facultatif pour les téléchargements en pleine résolution. Vide utilise le dossier de fonds d'écran Noctalia.",
+      "label": "Dossier de téléchargement"
+    },
+    "glyph": {
+      "label": "Glyphe de la barre"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Date d'ajout",
+      "favorites": "Favoris",
+      "random": "Aléatoire",
+      "relevance": "Pertinence",
+      "views": "Vues"
+    }
+  },
+  "sort_asc": "Ascendant",
+  "sort_desc": "Descendant",
+  "title": "Wallhaven"
+}

@@ -1,0 +1,58 @@
+{
+  "applied": "壁纸已应用",
+  "apply_failed": "壁纸应用失败",
+  "applying": "正在下载…",
+  "category_anime": "动漫",
+  "category_general": "综合",
+  "category_people": "人物",
+  "clear_resolution": "清除",
+  "download_failed": "下载失败",
+  "empty": "未找到壁纸。",
+  "error": "请求失败",
+  "filter_aspect_ratio": "宽高比",
+  "filter_categories": "分类",
+  "filter_purity": "内容",
+  "filter_resolution": "分辨率",
+  "filter_sort": "排序",
+  "loading": "正在加载壁纸…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "敏感",
+  "ratio_any": "不限",
+  "ratio_portrait": "全部竖屏",
+  "ratio_wide": "全部宽屏",
+  "resolution_height_placeholder": "高度",
+  "resolution_mode_atleast": "至少",
+  "resolution_mode_exact": "精确",
+  "resolution_mode_label": "模式",
+  "resolution_width_placeholder": "宽度",
+  "search": "搜索",
+  "search_placeholder": "搜索标签（例如 nature、city night）",
+  "settings": {
+    "api_key": {
+      "description": "可选的 Wallhaven API 密钥，用于提高请求频率限制并访问 NSFW 内容",
+      "label": "API 密钥"
+    },
+    "download_dir": {
+      "description": "可选的全分辨率下载路径；留空则使用 Noctalia 壁纸文件夹",
+      "label": "下载目录"
+    },
+    "glyph": {
+      "label": "状态栏图标"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "添加日期",
+      "favorites": "收藏",
+      "hot": "热门",
+      "random": "随机",
+      "relevance": "相关性",
+      "toplist": "排行榜",
+      "views": "浏览量"
+    }
+  },
+  "sort_asc": "升序",
+  "sort_desc": "降序",
+  "title": "Wallhaven"
+}

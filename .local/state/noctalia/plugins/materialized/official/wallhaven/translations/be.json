@@ -1,0 +1,43 @@
+{
+  "applied": "Шпалеры прыменены",
+  "apply_failed": "Не ўдалося прыменіць шпалеры",
+  "applying": "Загрузка…",
+  "category_anime": "Анімэ",
+  "category_general": "Агульнае",
+  "category_people": "Людзі",
+  "download_failed": "Не ўдалося загрузіць",
+  "empty": "Шпалеры не знойдзены.",
+  "error": "Запыт не ўдаўся",
+  "filter_categories": "Катэгорыі",
+  "filter_purity": "Змесціва",
+  "filter_sort": "Сартаванне",
+  "loading": "Загрузка шпалер…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Сумнеўна",
+  "search": "Пошук",
+  "search_placeholder": "Пошук тэгаў (напр. прырода, начны горад)",
+  "settings": {
+    "api_key": {
+      "description": "Неабавязковы ключ API Wallhaven для большых лімітаў і доступу да NSFW.",
+      "label": "Ключ API"
+    },
+    "download_dir": {
+      "description": "Неабавязковая замена для загрузкі ў поўнай раздзяльнасці. Пустае значэнне выкарыстоўвае каталог шпалер Noctalia.",
+      "label": "Каталог загрузкі"
+    },
+    "glyph": {
+      "label": "Гліф панэлі"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Дата дадавання",
+      "favorites": "Абранае",
+      "random": "Выпадкова",
+      "relevance": "Рэлевантнасць",
+      "views": "Прагляды"
+    }
+  },
+  "title": "Wallhaven"
+}

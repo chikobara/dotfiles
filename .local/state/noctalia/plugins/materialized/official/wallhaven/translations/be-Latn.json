@@ -1,0 +1,43 @@
+{
+  "applied": "Špalery prymienieny",
+  "apply_failed": "Nie ŭdalosia prymianić špalery",
+  "applying": "Zahruzka…",
+  "category_anime": "Animė",
+  "category_general": "Ahuĺnae",
+  "category_people": "Liudzi",
+  "download_failed": "Nie ŭdalosia zahruzić",
+  "empty": "Špalery nie znojdzieny.",
+  "error": "Zapyt nie ŭdaŭsia",
+  "filter_categories": "Katehoryi",
+  "filter_purity": "Zmiesciva",
+  "filter_sort": "Sortavannie",
+  "loading": "Zahruzka špaler…",
+  "purity_nsfw": "NSFW",
+  "purity_sfw": "SFW",
+  "purity_sketchy": "Sumnieŭna",
+  "search": "Pošuk",
+  "search_placeholder": "Pošuk tehaŭ (napr. pryroda,načny horad)",
+  "settings": {
+    "api_key": {
+      "description": "Nieabaviazkovy kluč API Wallhaven dla boĺšych limitaŭ i dostupu da NSFW.",
+      "label": "Kluč API"
+    },
+    "download_dir": {
+      "description": "Nieabaviazkovaja zamiena dla zahruzki ŭ poŭnaj razdziĺnasci. Pustoje značennie vykarystoŭvaje katalog špaler Noctalia.",
+      "label": "Katalog zahruzki"
+    },
+    "glyph": {
+      "label": "Hlif paneli"
+    }
+  },
+  "sort": {
+    "options": {
+      "date_added": "Data dadannia",
+      "favorites": "Abranaje",
+      "random": "Vypadkova",
+      "relevance": "Relevantnaść",
+      "views": "Prahlady"
+    }
+  },
+  "title": "Wallhaven"
+}

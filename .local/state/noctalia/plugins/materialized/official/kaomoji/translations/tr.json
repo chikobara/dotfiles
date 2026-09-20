@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "notify_on_copy": {
+      "description": "Bir kaemoji panoya kopyalandığında bildirim göster.",
+      "label": "Kopyalayınca haber ver"
+    }
+  },
+  "title": "Kaomoji"
+}
